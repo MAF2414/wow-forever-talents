@@ -15,6 +15,9 @@ and a side-by-side comparison against Classic Era.
 - Compare class spell ranks, costs, range, cast time, cooldowns and effect values.
 - Search by talent name, spell name or spell ID.
 - Optionally include passives, talent spells and seasonal or extra client data.
+- Explore [sets, bosses and instances](https://maf2414.github.io/wow-forever-talents/content.html):
+  51 new set IDs, 18 Tier 1 class/role sets with all bonuses, 80 changed Classic
+  sets, and new map and encounter records with source IDs.
 - Open `docs/index.html` directly for offline use: all data and icons are embedded.
 
 ## Data and scope
@@ -74,11 +77,20 @@ python scripts/build_comparison.py
 python scripts/verify_data.py
 node --check evidence/2026-09-16/browser-script.js
 node scripts/verify_planner.cjs
+python scripts/build_content.py
 ```
 
 The builder writes identical standalone pages to `dist/index.html` for local use
 and `docs/index.html` for GitHub Pages. It also creates `dist/talents.json` for
 further analysis; the HTML does not fetch that file.
+
+The content research builder additionally requires the `content-forever`,
+`content-classic`, `content-sod` exports and independently decoded
+`audit/content-db2` files. It verifies every exported field against the decoded
+client before generating `content.html`, its JSON data and the
+[content findings report](docs/content-findings.md). All five journal tables are
+empty in this build. Official raid announcements are listed separately from
+the partial client evidence; no raid loot sources are inferred from set names.
 
 To preview locally:
 
