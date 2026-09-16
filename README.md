@@ -22,6 +22,11 @@ and a side-by-side comparison against Classic Era.
   all 14 rank unlocks, Honor and Rank Points, Darkspear Islands objectives and
   brackets, 44 reputation item variants, and 60 new or updated PvP armor sets
   with class/faction filters and Classic bonus comparisons.
+- Explore [all twelve professions](https://maf2414.github.io/wow-forever-talents/professions.html):
+  2,232 recipes and enchantments outside SoD categories, 961 new recipe IDs,
+  39 camping variants, ingredients, item effects, tools, blueprint requirements,
+  specializations and Classic recipe comparisons. Camping buffs follow a selected
+  character level; additional talent records include their separate rank layouts.
 - Open `docs/index.html` directly for offline use: all data and icons are embedded.
 
 ## Data and scope
@@ -82,6 +87,8 @@ python scripts/verify_data.py
 node --check evidence/2026-09-16/browser-script.js
 node scripts/verify_planner.cjs
 python scripts/build_content.py
+python scripts/build_professions.py
+node scripts/verify_professions.cjs
 ```
 
 The builder writes identical standalone pages to `dist/index.html` for local use
@@ -101,6 +108,12 @@ PvP research additionally uses `pvp-forever`, `pvp-classic`, `pvp-sod` and
 and reads the rank interface directly from the client. It also generates the
 [PvP findings](docs/pvp-findings.md), [data](docs/pvp-data.json) and
 [source audit](docs/pvp-audit.json).
+
+The profession builder uses `professions-forever`, `professions-classic`,
+`professions-sod` and `audit/profession-db2`, plus the existing spell and item
+extracts. It verifies ten additional nonempty tables (202,273 fields) and writes
+the standalone `professions.html`, [findings](docs/professions-findings.md),
+[data](docs/professions-data.json) and [audit](docs/professions-audit.json).
 
 To preview locally:
 

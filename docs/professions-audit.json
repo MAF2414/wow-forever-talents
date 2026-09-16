@@ -1,0 +1,352 @@
+{
+  "build": "1.60.1.69876",
+  "date": "2026-09-17",
+  "matchedTables": 10,
+  "comparedFields": 202273,
+  "results": [
+    {
+      "table": "SpellReagents",
+      "fileDataID": 841946,
+      "rows": 3338,
+      "bytes": 132426,
+      "sha256": "7810a8ea5371798cef7ff5d617f43e23e9c871d6ba532a6cd0d1b74c31a4ad3a",
+      "status": "Matched export",
+      "comparedFields": 113492,
+      "columnMapping": {}
+    },
+    {
+      "table": "SpellTotems",
+      "fileDataID": 1002162,
+      "rows": 1079,
+      "bytes": 10572,
+      "sha256": "596bca3a2e5b10daa1fc92b1b9059a2e5969bfbaebf97ad3b20cb31b8b2bc002",
+      "status": "Matched export",
+      "comparedFields": 6474,
+      "columnMapping": {}
+    },
+    {
+      "table": "TotemCategory",
+      "fileDataID": 1134586,
+      "rows": 28,
+      "bytes": 1286,
+      "sha256": "61951d06cac5c531562f6831b1297e569344640766d0567b8439a79cbd5cc22a",
+      "status": "Matched export",
+      "comparedFields": 112,
+      "columnMapping": {}
+    },
+    {
+      "table": "TradeSkillCategory",
+      "fileDataID": 1301101,
+      "rows": 216,
+      "bytes": 6509,
+      "sha256": "c57cc2805be63aeca9a9bea5822a4e1a2546f666ed69956535bf4b27f3ea3642",
+      "status": "Matched export",
+      "comparedFields": 1512,
+      "columnMapping": {}
+    },
+    {
+      "table": "TradeSkillItem",
+      "fileDataID": 1329070,
+      "rows": 3239,
+      "bytes": 26520,
+      "sha256": "215b442e9c39079265ee579cb1825f622827f5b1df24c0013c5ff61d138eb08f",
+      "status": "Matched export",
+      "comparedFields": 6478,
+      "columnMapping": {}
+    },
+    {
+      "table": "SpellItemEnchantment",
+      "fileDataID": 1362771,
+      "rows": 2216,
+      "bytes": 316929,
+      "sha256": "1c6eec719c360c0e43a3e8e49e0dd68aaee1f082b1a1935da1b2a27e447aee72",
+      "status": "Matched export",
+      "comparedFields": 73128,
+      "columnMapping": {}
+    },
+    {
+      "table": "SkillLineCategory",
+      "fileDataID": 2179610,
+      "rows": 9,
+      "bytes": 527,
+      "sha256": "645816f44618de994b2dd7daa8334f3e5be80eb85a88898245538ccb54be7022",
+      "status": "Matched export",
+      "comparedFields": 27,
+      "columnMapping": {
+        "ID": "ID",
+        "Field_1_60_1_69876_000_lang": "Name_lang",
+        "Field_1_60_1_69876_001": "SortIndex"
+      }
+    },
+    {
+      "table": "RecipeProgressionGroupEntry",
+      "fileDataID": 3671785,
+      "rows": 0,
+      "bytes": 228,
+      "sha256": "5be42c9a4dfd2369612e7be17369597cf509cde75a738bf4857f0516512f98e9",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "Profession",
+      "fileDataID": 4508544,
+      "rows": 12,
+      "bytes": 590,
+      "sha256": "21cc08b75a5f2d43bed54aba398188693d799c187c4cee1be7575e422cd407cd",
+      "status": "Matched export",
+      "comparedFields": 132,
+      "columnMapping": {}
+    },
+    {
+      "table": "ProfessionExpansion",
+      "fileDataID": 5662322,
+      "rows": 0,
+      "bytes": 232,
+      "sha256": "1588b2a60bded62e6a8bafa98c81bd3bf97f5e7e751f69879799a478081061cf",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "CraftingData",
+      "fileDataID": 4545611,
+      "rows": 0,
+      "bytes": 268,
+      "sha256": "14deab4e58cc79414876bc0ee56ada573e4062c4d447f995183dd8812abbc341",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "ItemDisenchantLoot",
+      "fileDataID": 1134087,
+      "rows": 54,
+      "bytes": 1234,
+      "sha256": "a278545e1aafe201efdefe1564f70d5d72b3659c828e02213f43efac49aefc2e",
+      "status": "Matched export",
+      "comparedFields": 432,
+      "columnMapping": {}
+    },
+    {
+      "table": "SpellFocusObject",
+      "fileDataID": 1280620,
+      "rows": 243,
+      "bytes": 7033,
+      "sha256": "9b96f597b52cf0ced269634a8d2085dd9633f04742d4d1d6bb54d9140160c27f",
+      "status": "Matched export",
+      "comparedFields": 486,
+      "columnMapping": {}
+    }
+  ],
+  "supportingAudits": [
+    "client-audit.json",
+    "content-audit.json",
+    "pvp-audit.json"
+  ],
+  "comparison": "Classic Era 1.14.4.51395; SoD 1.15.9.69722",
+  "sources": [
+    {
+      "folder": "professions-forever",
+      "table": "ItemDisenchantLoot",
+      "sha256": "e9e6bbd7c7e0fcbfca109455a89453eeb7ea4a4b823b1473d2dab4ec58219163"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "Profession",
+      "sha256": "2ff5a64f8c10607f8b70d78ef248cb300593a708d9d00dac4b7eb1bf046553be"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "SkillLineCategory",
+      "sha256": "c4937a4d776b6b731ca0102d4c2f767a3ee0e4f1507686a71d21b5d96657dd78"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "SpellFocusObject",
+      "sha256": "b7130095d0dfacf2bf3b5c4121410f294140fc8773242995986e7248043dbcf6"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "SpellItemEnchantment",
+      "sha256": "ba14173e6123089f723a03568f7fcf46a6613b6502f2b6e89870719fc1f0424b"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "SpellReagents",
+      "sha256": "7cf4e681e62d8ac5e4514b7411587fec98b940e2d6b365645c1da198a2c3ce1b"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "SpellTotems",
+      "sha256": "75cb7a75ee3e1cd132733aded2842b86854e6966fc8e8bc89b8da171dcc7334a"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "TotemCategory",
+      "sha256": "8455ad1e7467791ed9b57145f2f30b1ccd761206e535ac9e8576a9612c9a82b1"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "TradeSkillCategory",
+      "sha256": "96d291070c6e099a16e5251fcf511cdfe0fef700a7dc1d691d8839c8633699c8"
+    },
+    {
+      "folder": "professions-forever",
+      "table": "TradeSkillItem",
+      "sha256": "7fe4715be75190a12c8519d1138ddbc8b0a61689a48f87ce932f4ae551f0059f"
+    },
+    {
+      "folder": "professions-classic",
+      "table": "ItemDisenchantLoot",
+      "sha256": "917dc592fc5871f8eb7ca29c2af29f7efce4e69b7e7886361dc96bfaeea99cff"
+    },
+    {
+      "folder": "professions-classic",
+      "table": "SkillLineCategory",
+      "sha256": "09511abb15e6c9c9301a28da89c08ce0784941af7360ee1d080eba2645382426"
+    },
+    {
+      "folder": "professions-classic",
+      "table": "SpellFocusObject",
+      "sha256": "20058383242316d3d1e3229e81e41ade9a77acabd27fb3cbdc41b2d9702dc86e"
+    },
+    {
+      "folder": "professions-classic",
+      "table": "SpellItemEnchantment",
+      "sha256": "e8368f1fc008625a915feb199873f94867ef08b2e206a0ddb8b7058e1ba31302"
+    },
+    {
+      "folder": "professions-classic",
+      "table": "SpellReagents",
+      "sha256": "d52a9a7ba401ebf85d4b030dca57879cc1a437b98bfaa2bddbfe5f55c4bfabf2"
+    },
+    {
+      "folder": "professions-classic",
+      "table": "SpellTotems",
+      "sha256": "87024e0260c1f2cbc6a602e83965e740ada6919030ccdd89a103f9e642239c90"
+    },
+    {
+      "folder": "professions-classic",
+      "table": "TotemCategory",
+      "sha256": "7a1b15cbffaaf016398e9a1e10a5acd038c05296a77e89001939b7a1a346144f"
+    },
+    {
+      "folder": "professions-classic",
+      "table": "TradeSkillItem",
+      "sha256": "668cc500a22f20eb46396b89e54cc9ca884a0bb5691616524e6388d95d54f07e"
+    },
+    {
+      "folder": "professions-sod",
+      "table": "ItemDisenchantLoot",
+      "sha256": "917dc592fc5871f8eb7ca29c2af29f7efce4e69b7e7886361dc96bfaeea99cff"
+    },
+    {
+      "folder": "professions-sod",
+      "table": "SkillLineCategory",
+      "sha256": "09511abb15e6c9c9301a28da89c08ce0784941af7360ee1d080eba2645382426"
+    },
+    {
+      "folder": "professions-sod",
+      "table": "SpellItemEnchantment",
+      "sha256": "285c67db58fbe4838bc3ac329a480d0f8218917a22ddd5817f4ae2acd1acb8fe"
+    },
+    {
+      "folder": "professions-sod",
+      "table": "SpellReagents",
+      "sha256": "1ea5744cfe62800c6d7b2f8818d510bd24574530fee8b798cd862f643584bc99"
+    },
+    {
+      "folder": "professions-sod",
+      "table": "SpellTotems",
+      "sha256": "7cabbdd8f542aef8b41172356a52257f57b016fd9bc8b93a53577ee1fefca7fa"
+    },
+    {
+      "folder": "professions-sod",
+      "table": "TotemCategory",
+      "sha256": "3fc25c88a7800e240dbbb3714e47ef24f788ac8a53be04534fb21615d54d2881"
+    },
+    {
+      "folder": "professions-sod",
+      "table": "TradeSkillItem",
+      "sha256": "4ba2da6a99d5a559b54e64ec82d0e068a8b157c02090fc801483d7fb162aa2c1"
+    }
+  ],
+  "staleAbilityReferences": [
+    {
+      "abilityRowID": 1377,
+      "professionID": 171,
+      "spellID": 2330
+    },
+    {
+      "abilityRowID": 1385,
+      "professionID": 171,
+      "spellID": 2337
+    },
+    {
+      "abilityRowID": 1930,
+      "professionID": 171,
+      "spellID": 3447
+    },
+    {
+      "abilityRowID": 4005,
+      "professionID": 171,
+      "spellID": 6619
+    },
+    {
+      "abilityRowID": 4177,
+      "professionID": 171,
+      "spellID": 7181
+    },
+    {
+      "abilityRowID": 6005,
+      "professionID": 171,
+      "spellID": 11457
+    },
+    {
+      "abilityRowID": 9941,
+      "professionID": 171,
+      "spellID": 17556
+    },
+    {
+      "abilityRowID": 12217,
+      "professionID": 333,
+      "spellID": 22434
+    },
+    {
+      "abilityRowID": 57128,
+      "professionID": 171,
+      "spellID": 1277779
+    },
+    {
+      "abilityRowID": 57129,
+      "professionID": 164,
+      "spellID": 1277780
+    },
+    {
+      "abilityRowID": 57130,
+      "professionID": 333,
+      "spellID": 1277781
+    },
+    {
+      "abilityRowID": 57131,
+      "professionID": 202,
+      "spellID": 1277782
+    },
+    {
+      "abilityRowID": 57132,
+      "professionID": 165,
+      "spellID": 1277783
+    },
+    {
+      "abilityRowID": 57133,
+      "professionID": 197,
+      "spellID": 1277784
+    }
+  ],
+  "duplicateAbilityRows": [
+    {
+      "kept": 51659,
+      "duplicate": 51704,
+      "spellID": 1213492
+    }
+  ],
+  "unresolvedOutputDescriptions": 131
+}
