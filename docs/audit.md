@@ -5,8 +5,6 @@ from Blizzard's client archives for **1.60.1.69876**. The comparison covered
 **243,982 records and 3,685,417 fields**, with no missing or additional records
 and no field differences beyond floating-point serialization tolerance.
 
-This verifies packaged client data. It is not a logged-in gameplay test.
-
 ## Method
 
 - Confirmed the build against Blizzard's public
