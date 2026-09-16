@@ -1,0 +1,10 @@
+/evidence/
+/sources/
+/dist/
+/.openai/
+__pycache__/
+*.pyc
+.env
+.env.*
+Thumbs.db
+.DS_Store
