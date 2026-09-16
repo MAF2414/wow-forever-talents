@@ -266,8 +266,8 @@ def main():
     (b.OUT/'talents.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
     payload=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
     html=(b.ROOT/'site'/'index.template.html').read_text(encoding='utf-8').replace('/*TALENT_DATA*/null',payload)
-    css=(b.ROOT/'site'/'comparison.css').read_text(encoding='utf-8')
-    js=(b.ROOT/'site'/'comparison.js').read_text(encoding='utf-8')
+    css='\n'.join((b.ROOT/'site'/name).read_text(encoding='utf-8') for name in ['comparison.css','planner.css'])
+    js='\n'.join((b.ROOT/'site'/name).read_text(encoding='utf-8') for name in ['comparison.js','planner-engine.js','planner.js'])
     html=html.replace('</style>',css+'\n</style>').replace('if(DATA)init();','if(DATA)init();\n'+js)
     (b.OUT/'index.html').write_text(html,encoding='utf-8',newline='\n')
     public=b.ROOT/'docs'

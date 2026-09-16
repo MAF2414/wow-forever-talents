@@ -9,6 +9,8 @@ and a side-by-side comparison against Classic Era.
 
 - Switch between Forever and Classic talent trees for all 27 specializations.
 - Inspect every talent rank, description and prerequisite.
+- Enable **Level 60 planner** to allocate 51 points, with tier and prerequisite
+  checks, safe refunds and separate saved builds for each class and version.
 - See new, removed and changed talents, including highlighted text differences.
 - Compare class spell ranks, costs, range, cast time, cooldowns and effect values.
 - Search by talent name, spell name or spell ID.
@@ -71,6 +73,7 @@ python scripts/fetch_icons.py
 python scripts/build_comparison.py
 python scripts/verify_data.py
 node --check evidence/2026-09-16/browser-script.js
+node scripts/verify_planner.cjs
 ```
 
 The builder writes identical standalone pages to `dist/index.html` for local use
