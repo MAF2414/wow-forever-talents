@@ -30,7 +30,8 @@ This verifies packaged client data. It is not a logged-in gameplay test.
 
 [Table counts, FileDataIDs and SHA-256 hashes](client-audit.json)
 
-Build config: `e7fab7248766e9e7daddb3b6083c9c3c`  
+Build config: `e7fab7248766e9e7daddb3b6083c9c3c`
+
 Root content key: `eeee5a6e1cf0652a5b459e2b37f6b57f`
 
 Tool source revisions:
