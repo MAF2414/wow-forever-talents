@@ -4,6 +4,7 @@ import collections, csv, hashlib, json, math, re
 from pathlib import Path
 import build_talents as talent
 from build_comparison import Context
+import build_pvp
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = ROOT / 'evidence/2026-09-16'
@@ -188,7 +189,7 @@ def main():
             'newEncounterRecords':len(encounters),'newEncounterNames':sum(e['status']=='new-name' for e in encounters)},
         'sets':sets,'maps':maps,'encounters':encounters,'areas':areas,
         'announcements':[dict(zip(['name','type','size','mapID','evidence'],a),source=OFFICIAL) for a in announcements],
-        'audit':audit}
+        'audit':audit,'pvp':build_pvp.build(sets)}
     assert data['summary']['newSets']==51 and data['summary']['tierSets']==18
     assert data['summary']['newEncounterNames']==26 and len(encounters)==34
     assert not [m for m in maps if m['instanceType']==2]
@@ -201,7 +202,7 @@ def main():
     assert '1 sec' in next(b['description'] for b in hunter['bonuses'] if b['threshold']==5)
     raw=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
     template=(ROOT/'site/content.template.html').read_text(encoding='utf-8')
-    html=template.replace('/*CONTENT_DATA*/null',raw)
+    html=template.replace('/*CONTENT_DATA*/null',raw).replace('/*PVP_SCRIPT*/',(ROOT/'site/pvp.js').read_text(encoding='utf-8'))
     for folder in ['docs','dist']:
         (ROOT/folder/'content.html').write_text(html,encoding='utf-8')
         (ROOT/folder/'content-data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')

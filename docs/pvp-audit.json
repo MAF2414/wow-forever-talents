@@ -1,0 +1,520 @@
+{
+  "build": "1.60.1.69876",
+  "date": "2026-09-17",
+  "results": [
+    {
+      "table": "ItemExtendedCost",
+      "fileDataID": 801681,
+      "rows": 1101,
+      "bytes": 41086,
+      "sha256": "aaa73ec85545cd81575410577051aff9a3c2398e738e9715e5530a9809d90cfe",
+      "status": "Matched export",
+      "comparedFields": 30828,
+      "columnMapping": {}
+    },
+    {
+      "table": "PvpItem",
+      "status": "Unavailable in this extraction"
+    },
+    {
+      "table": "CurrencyTypes",
+      "fileDataID": 1095531,
+      "rows": 9,
+      "bytes": 2235,
+      "sha256": "074982e8df6a66985c919ece97e15d417c1057a4eb7d441c9db44c64cbdba9bb",
+      "status": "Matched export",
+      "comparedFields": 225,
+      "columnMapping": {
+        "ID": "ID",
+        "Field_1_60_1_69876_000_lang": "Name_lang",
+        "Field_1_60_1_69876_001_lang": "Description_lang",
+        "Field_1_60_1_69876_002": "CategoryID",
+        "Field_1_60_1_69876_003": "InventoryIconFileID",
+        "Field_1_60_1_69876_004": "SpellWeight",
+        "Field_1_60_1_69876_005": "SpellCategory",
+        "Field_1_60_1_69876_006": "MaxQty",
+        "Field_1_60_1_69876_007": "MaxEarnablePerWeek",
+        "Field_1_60_1_69876_008": "Quality",
+        "Field_1_60_1_69876_009": "FactionID",
+        "Field_1_60_1_69876_010": "ItemGroupSoundsID",
+        "Field_1_60_1_69876_011": "XpQuestDifficulty",
+        "Field_1_60_1_69876_012": "AwardConditionID",
+        "Field_1_60_1_69876_013": "MaxQtyWorldStateID",
+        "Field_1_60_1_69876_014": "RechargingAmountPerCycle",
+        "Field_1_60_1_69876_015": "RechargingCycleDurationMS",
+        "Field_1_60_1_69876_016": "WarbondTransferPercentage",
+        "Field_1_60_1_69876_017": "MaxQtyCurveID",
+        "Field_1_60_1_69876_018": "OrderIndex",
+        "Field_1_60_1_69876_019": "RecraftReagentCountPercentage",
+        "Field_1_60_1_69876_020": "OrderSource",
+        "Field_1_60_1_69876_021": "MCRCurrencyID",
+        "Field_1_60_1_69876_022_0": "Flags_0",
+        "Field_1_60_1_69876_022_1": "Flags_1"
+      }
+    },
+    {
+      "table": "PrestigeLevelInfo",
+      "fileDataID": 1275869,
+      "rows": 0,
+      "bytes": 224,
+      "sha256": "dd48d8410c53b68be4f0605ff94fd86c4dc283e606b944fe19f0c869b137dad1",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "PvpTalentUnlock",
+      "status": "Unavailable in this extraction"
+    },
+    {
+      "table": "PvpTalent",
+      "fileDataID": 1302853,
+      "rows": 0,
+      "bytes": 244,
+      "sha256": "61248ca66a1574f68aed11fc6f3f23cd7af542f161299015f1344209efe661f1",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "PvpReward",
+      "status": "Unavailable in this extraction"
+    },
+    {
+      "table": "World_PVP_Area",
+      "fileDataID": 1310255,
+      "rows": 0,
+      "bytes": 232,
+      "sha256": "0f615e540f0221fe67e53bd99d87bea6e2b1ec5d5fe95d0bf74fc15e5b0fce96",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "WorldStateUI",
+      "status": "Unavailable in this extraction"
+    },
+    {
+      "table": "BattlemasterList",
+      "fileDataID": 1360265,
+      "rows": 10,
+      "bytes": 2671,
+      "sha256": "1637b9478d24d443486e17f7fdc95893a45dfdee74b63c4796d39df9e478ce3a",
+      "status": "Matched export",
+      "comparedFields": 180,
+      "columnMapping": {}
+    },
+    {
+      "table": "Faction",
+      "fileDataID": 1361972,
+      "rows": 253,
+      "bytes": 19616,
+      "sha256": "20d844618a3fbca87cd9e4504acede4791c6b4b731370ff1aca0079b04e59a81",
+      "status": "Matched export",
+      "comparedFields": 10120,
+      "columnMapping": {
+        "ID": "ID",
+        "Field_1_60_1_69876_000_lang": "Name_lang",
+        "Field_1_60_1_69876_001_lang": "Description_lang",
+        "Field_1_60_1_69876_002": "ReputationIndex",
+        "Field_1_60_1_69876_003": "ParentFactionID",
+        "Field_1_60_1_69876_004": "Expansion",
+        "Field_1_60_1_69876_005": "FriendshipRepID",
+        "Field_1_60_1_69876_006": "Flags",
+        "Field_1_60_1_69876_007": "ParagonFactionID",
+        "Field_1_60_1_69876_008": "RenownFactionID",
+        "Field_1_60_1_69876_009": "RenownCurrencyID",
+        "Field_1_60_1_69876_010": "RenownThresholdCurveID",
+        "Field_1_60_1_69876_011_0": "ReputationClassMask_0",
+        "Field_1_60_1_69876_011_1": "ReputationClassMask_1",
+        "Field_1_60_1_69876_011_2": "ReputationClassMask_2",
+        "Field_1_60_1_69876_011_3": "ReputationClassMask_3",
+        "Field_1_60_1_69876_012_0": "ReputationFlags_0",
+        "Field_1_60_1_69876_012_1": "ReputationFlags_1",
+        "Field_1_60_1_69876_012_2": "ReputationFlags_2",
+        "Field_1_60_1_69876_012_3": "ReputationFlags_3",
+        "Field_1_60_1_69876_013_0": "ReputationBase_0",
+        "Field_1_60_1_69876_013_1": "ReputationBase_1",
+        "Field_1_60_1_69876_013_2": "ReputationBase_2",
+        "Field_1_60_1_69876_013_3": "ReputationBase_3",
+        "Field_1_60_1_69876_014_0": "ReputationMax_0",
+        "Field_1_60_1_69876_014_1": "ReputationMax_1",
+        "Field_1_60_1_69876_014_2": "ReputationMax_2",
+        "Field_1_60_1_69876_014_3": "ReputationMax_3",
+        "Field_1_60_1_69876_015_0": "ParentFactionMod_0",
+        "Field_1_60_1_69876_015_1": "ParentFactionMod_1",
+        "Field_1_60_1_69876_016_0": "ParentFactionCap_0",
+        "Field_1_60_1_69876_016_1": "ParentFactionCap_1",
+        "Field_1_60_1_69876_017_0": "ReputationRaceMasks0_0",
+        "Field_1_60_1_69876_017_1": "ReputationRaceMasks0_1",
+        "Field_1_60_1_69876_018_0": "ReputationRaceMasks1_0",
+        "Field_1_60_1_69876_018_1": "ReputationRaceMasks1_1",
+        "Field_1_60_1_69876_019_0": "ReputationRaceMasks2_0",
+        "Field_1_60_1_69876_019_1": "ReputationRaceMasks2_1",
+        "Field_1_60_1_69876_020_0": "ReputationRaceMasks3_0",
+        "Field_1_60_1_69876_020_1": "ReputationRaceMasks3_1"
+      }
+    },
+    {
+      "table": "WorldState",
+      "status": "Unavailable in this extraction"
+    },
+    {
+      "table": "PvpTalentCategory",
+      "fileDataID": 1891534,
+      "rows": 0,
+      "bytes": 208,
+      "sha256": "8a8c27556388ece7038190b8750ca6fb376e636d789e5aaa06b7c6b9ff7dc377",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "PvpTalentSlotUnlock",
+      "fileDataID": 1950197,
+      "rows": 0,
+      "bytes": 220,
+      "sha256": "31aca6695a35a8c7db6cb05248e1799d24a30df55859e6f26a56923c6ffaaebb",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "ContentTuning",
+      "fileDataID": 1962930,
+      "rows": 98,
+      "bytes": 1412,
+      "sha256": "6228fe104d50e9df2ba8b2922b00ab907464898cd132ef1d59e71716132b9bbc",
+      "status": "Matched export",
+      "comparedFields": 1862,
+      "columnMapping": {}
+    },
+    {
+      "table": "PvpTier",
+      "fileDataID": 2066871,
+      "rows": 0,
+      "bytes": 240,
+      "sha256": "ab18a1feec69e966adf7248a4daf83737a4ef9283d8fcb9b902dfd038646e081",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "PvpSeasonRewardLevels",
+      "fileDataID": 2470695,
+      "rows": 0,
+      "bytes": 216,
+      "sha256": "8cff7b4d5c3690c94b7645c31300142819ed9b02e70f2e9fa1200a1c4531d0b8",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "PvpSeason",
+      "fileDataID": 2966426,
+      "rows": 1,
+      "bytes": 335,
+      "sha256": "fba6d5dd852b0a6410af45776c839bfcd71fbbeee621d8d1d564ef797cd78f7a",
+      "status": "Matched export",
+      "comparedFields": 4,
+      "columnMapping": {}
+    },
+    {
+      "table": "PvpRating",
+      "fileDataID": 4699082,
+      "rows": 0,
+      "bytes": 220,
+      "sha256": "2f7a4b479f86be071bd8abf654d269b218acead1ce6ccd54970be619b1835dc5",
+      "status": "Empty",
+      "comparedFields": 0
+    },
+    {
+      "table": "BattlemasterListXMap",
+      "fileDataID": 5916746,
+      "rows": 11,
+      "bytes": 440,
+      "sha256": "b6d714183feaa641f0c8d169dc308a2b11d61c00e8f9f6ac96e586d1cdb7a383",
+      "status": "Matched export",
+      "comparedFields": 33,
+      "columnMapping": {}
+    },
+    {
+      "table": "PVPDifficulty",
+      "fileDataID": 1339820,
+      "rows": 25,
+      "bytes": 692,
+      "sha256": "8a4e6e12d8cedb36fba9958b21c9e26513aad0718f1d615409bc0250c47879c3",
+      "status": "Matched export",
+      "comparedFields": 125,
+      "columnMapping": {}
+    },
+    {
+      "table": "PVPScoreboardCellInfo",
+      "fileDataID": 2992916,
+      "rows": 5,
+      "bytes": 422,
+      "sha256": "061a84ffa201f5511d30099bc100ac457aab56804280f711f80729b0e598c110",
+      "status": "Matched export",
+      "comparedFields": 20,
+      "columnMapping": {}
+    },
+    {
+      "table": "PVPScoreboardColumnHeader",
+      "fileDataID": 2992917,
+      "rows": 3,
+      "bytes": 609,
+      "sha256": "1117d18609fc3f0f22e59242f99f64d817a41f84e244057588072bacbc38479b",
+      "status": "Matched export",
+      "comparedFields": 15,
+      "columnMapping": {}
+    },
+    {
+      "table": "PVPScoreboardLayout",
+      "fileDataID": 2992918,
+      "rows": 3,
+      "bytes": 390,
+      "sha256": "ac74237a2456ae81d052ec9315efb3b2ffd42248237996faac7914a230be594c",
+      "status": "Matched export",
+      "comparedFields": 12,
+      "columnMapping": {}
+    },
+    {
+      "table": "PVPStat",
+      "fileDataID": 2992919,
+      "rows": 3,
+      "bytes": 420,
+      "sha256": "badd6f209164fd33aa635fa536383b9a4f9e20ca816bd8448bf903c1cd5a781b",
+      "status": "Matched export",
+      "comparedFields": 9,
+      "columnMapping": {}
+    },
+    {
+      "table": "GlobalStrings",
+      "fileDataID": 1394440,
+      "rows": 27262,
+      "bytes": 2065113,
+      "sha256": "95b7a9217e799fd23a623885219452a8b22c05ed886ca4682432dbc653b62367",
+      "status": "Matched export",
+      "comparedFields": 109048,
+      "columnMapping": {}
+    },
+    {
+      "table": "RenownRewards",
+      "fileDataID": 3743117,
+      "rows": 22,
+      "bytes": 3301,
+      "sha256": "3e6c1f4ff6d0c02ed13057585dbd8f88d3d89fe6f6017c7480a8600701b74428",
+      "status": "Matched export",
+      "comparedFields": 440,
+      "columnMapping": {}
+    },
+    {
+      "table": "PlayerCondition",
+      "fileDataID": 1045411,
+      "rows": 1818,
+      "bytes": 121539,
+      "sha256": "a3dc7b783b01547f1a25e21623efddc02c572dc49041a933887d80240f9e8f8d",
+      "status": "Matched export",
+      "comparedFields": 294516,
+      "columnMapping": {}
+    },
+    {
+      "table": "Covenant",
+      "fileDataID": 3384973,
+      "rows": 2,
+      "bytes": 617,
+      "sha256": "cef69730a441a35923bc06e38eac58b56f65a50b5c0dbccc21127a7b3750d505",
+      "status": "Matched export",
+      "comparedFields": 22,
+      "columnMapping": {}
+    },
+    {
+      "table": "ItemXItemEffect",
+      "fileDataID": 3177687,
+      "rows": 12565,
+      "bytes": 189519,
+      "sha256": "0f3db0150766e9d91873d243344a39d51e89d3db26d8ca8d1642c72b46e60e66",
+      "status": "Matched export",
+      "comparedFields": 37695,
+      "columnMapping": {}
+    }
+  ],
+  "matchedTables": 17,
+  "comparedFields": 485154,
+  "uiFiles": [
+    {
+      "file": "PVPRankFrame.lua",
+      "fileDataID": 7902428,
+      "bytes": 10877,
+      "sha256": "2fcd2b8c260ade00cc0ba153a77881f58d81a021bd18127d2b9dba9d7a600797"
+    },
+    {
+      "file": "PVPRankFrame.xml",
+      "fileDataID": 7902429,
+      "bytes": 4404,
+      "sha256": "8f7cf7273bc861810063de3cea710b1db91346c3c1a1d54ea1a667ec661de934"
+    },
+    {
+      "file": "MajorFactionsDocumentation.lua",
+      "fileDataID": 4681097,
+      "bytes": 9684,
+      "sha256": "3ea3b1145ae75a64b85255c393edc81b2e40086ff58f7647e822b0ae40478dea"
+    }
+  ],
+  "uiSourceRevision": "f0da0a9171aa736c8a64d2b3a8ae70195f5d2afb",
+  "sources": [
+    {
+      "version": "forever",
+      "table": "BattlemasterList",
+      "sha256": "8ce0cc916a644117a8d3b52b0ba2821f567b7fb713d7d1541b8b0c08ee915a59"
+    },
+    {
+      "version": "forever",
+      "table": "BattlemasterListXMap",
+      "sha256": "141af7411d891749394574cb3cb12f34dbff7e04c1827514c33061647cc25a4b"
+    },
+    {
+      "version": "forever",
+      "table": "ContentTuning",
+      "sha256": "11d9559b3ea4aa8ddb7e5b70416e107fcb7035afee1206b97d4c66435b59e045"
+    },
+    {
+      "version": "forever",
+      "table": "Covenant",
+      "sha256": "b7f88839d52327bbc9dfa88d8a34a8239f4d68597fe936de397215dea44568aa"
+    },
+    {
+      "version": "forever",
+      "table": "CurrencyTypes",
+      "sha256": "bfc81c2edb5b4b469c64d08e4bf4c2ad4208737a4df0bc5cd6f6ce2320269294"
+    },
+    {
+      "version": "forever",
+      "table": "Faction",
+      "sha256": "fddd2c47d5d39454ed339aa87f33a0bda17044724c8ad99f1e4f53d1add7c48e"
+    },
+    {
+      "version": "forever",
+      "table": "GlobalStrings",
+      "sha256": "784c705a19dba90216d670fead458c40297fb3c33062aa95f6928ba935778e7d"
+    },
+    {
+      "version": "forever",
+      "table": "ItemExtendedCost",
+      "sha256": "159fff66322e61c21b933c531312c5be29e47b013095539bac6510d7e9d67550"
+    },
+    {
+      "version": "forever",
+      "table": "ItemXItemEffect",
+      "sha256": "8ee4febb520aea61b4e8c2fa113c1a91beecc92bb6fc8ff1de5d194c686606f0"
+    },
+    {
+      "version": "forever",
+      "table": "PlayerCondition",
+      "sha256": "a19380576149215534fa76a86835399c09066769d5b80cce20e3997ad2b3b55d"
+    },
+    {
+      "version": "forever",
+      "table": "PvpDifficulty",
+      "sha256": "9b3f6f11f2fc8159086871738a8728d3fd3d894c5526fbd15e546cfde3f6b39f"
+    },
+    {
+      "version": "forever",
+      "table": "PvpScoreboardCellInfo",
+      "sha256": "e86a7227035644f39a7a766d6969239ae1becfeac3fa068c6c525a30e46b6f2d"
+    },
+    {
+      "version": "forever",
+      "table": "PvpScoreboardColumnHeader",
+      "sha256": "356951f014f47a202fc02d5b1d04bd4b7042624313c92b8c67244b47a9ebb7f7"
+    },
+    {
+      "version": "forever",
+      "table": "PvpScoreboardLayout",
+      "sha256": "baa37a8132198bd31690546ed0c1ea4deffa44d80690628c37160db46d6da85a"
+    },
+    {
+      "version": "forever",
+      "table": "PvpSeason",
+      "sha256": "adfe6275564f9974b54a5d18e0abc6f85785d4fbd9b96c654a0da1fd1768f6ed"
+    },
+    {
+      "version": "forever",
+      "table": "PvpStat",
+      "sha256": "2004c1feee6ff7e8ca486a1c3eb20896bd62b137ac599e71ec75910c6cc14554"
+    },
+    {
+      "version": "forever",
+      "table": "RenownRewards",
+      "sha256": "8f464c75bf5899ffb8cfc49bb86040b728b1ad037ee23fb5f2ab34686370e813"
+    },
+    {
+      "version": "classic",
+      "table": "BattlemasterList",
+      "sha256": "bcc7394fd8e4a3676de8d8d61fec51bc4320f341f856b5a4a738fad0dce3b92f"
+    },
+    {
+      "version": "classic",
+      "table": "ContentTuning",
+      "sha256": "33c31b80633f8ce05056af7f1b234bad9cd605635d98156fb566813ab5ab7af5"
+    },
+    {
+      "version": "classic",
+      "table": "Faction",
+      "sha256": "9e263a109e769a266e685eceecb097311fef6406d5ef051c10d19b019bc7559b"
+    },
+    {
+      "version": "classic",
+      "table": "GlobalStrings",
+      "sha256": "479caef7e08073d766c3b3221dbd03d08dc9affe949151c65ceb1ac981417f3d"
+    },
+    {
+      "version": "classic",
+      "table": "ItemExtendedCost",
+      "sha256": "bc2b50a1f3cafbe4a0bc810126a6f7f36656396f48b7a18288a50951d15ddce5"
+    },
+    {
+      "version": "classic",
+      "table": "PvpDifficulty",
+      "sha256": "20fa4decaa8240351027810a65d6367ddd41c7af773b6b9008c70eec8791cd28"
+    },
+    {
+      "version": "classic",
+      "table": "WorldStateUI",
+      "sha256": "4e82a1122db8648417b3af402a31249042375d903f8ebded3e8460d95c81807a"
+    },
+    {
+      "version": "sod",
+      "table": "BattlemasterList",
+      "sha256": "8ac9e824b2e36a9078376c626c7c758251d89fcd558891ef07cea2c568ca88f1"
+    },
+    {
+      "version": "sod",
+      "table": "BattlemasterListXMap",
+      "sha256": "a32b5807bd6a8b2e3f7b2309eb0a16fc9f718772c086b99dd45a684cc42bfd1f"
+    },
+    {
+      "version": "sod",
+      "table": "ContentTuning",
+      "sha256": "f591df31333289b9331f9364dbcd27494de39e80c44ec607a8671e1b39155b7c"
+    },
+    {
+      "version": "sod",
+      "table": "Faction",
+      "sha256": "4402641ccf4f3b0153524b9eaf5378479c0c92e8b6ade12db5e36b65495fd291"
+    },
+    {
+      "version": "sod",
+      "table": "GlobalStrings",
+      "sha256": "56b036f0c0d476e34e6f21f19e9d31c2b9720f846f916f69b5e77e856f352631"
+    },
+    {
+      "version": "sod",
+      "table": "ItemExtendedCost",
+      "sha256": "2193fc1ea49b0e5652df2f430dc85525df400c6307ac0304c97cc6e08405cc38"
+    },
+    {
+      "version": "sod",
+      "table": "PvpDifficulty",
+      "sha256": "cee91ddb36f8ea5c68ee2fa306efc3d9efafed6b36eba2c09a5ad58f64c4fab3"
+    },
+    {
+      "version": "sod",
+      "table": "WorldStateUI",
+      "sha256": "38b042b9b0140e48b176f23d846590914eb02daa692601b212d20ae3e5e9dec6"
+    }
+  ]
+}

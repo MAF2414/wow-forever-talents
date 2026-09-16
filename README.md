@@ -15,9 +15,13 @@ and a side-by-side comparison against Classic Era.
 - Compare class spell ranks, costs, range, cast time, cooldowns and effect values.
 - Search by talent name, spell name or spell ID.
 - Optionally include passives, talent spells and seasonal or extra client data.
-- Explore [sets, bosses and instances](https://maf2414.github.io/wow-forever-talents/content.html):
+- Explore [sets, PvP, bosses and instances](https://maf2414.github.io/wow-forever-talents/content.html):
   51 new set IDs, 18 Tier 1 class/role sets with all bonuses, 80 changed Classic
   sets, and new map and encounter records with source IDs.
+- Browse [PvP ranks and rewards](https://maf2414.github.io/wow-forever-talents/content.html#pvp):
+  all 14 rank unlocks, Honor and Rank Points, Darkspear Islands objectives and
+  brackets, 44 reputation item variants, and 60 new or updated PvP armor sets
+  with class/faction filters and Classic bonus comparisons.
 - Open `docs/index.html` directly for offline use: all data and icons are embedded.
 
 ## Data and scope
@@ -91,6 +95,12 @@ client before generating `content.html`, its JSON data and the
 [content findings report](docs/content-findings.md). All five journal tables are
 empty in this build. Official raid announcements are listed separately from
 the partial client evidence; no raid loot sources are inferred from set names.
+
+PvP research additionally uses `pvp-forever`, `pvp-classic`, `pvp-sod` and
+`audit/pvp-db2`. The build checks 17 nonempty PvP tables against the exports
+and reads the rank interface directly from the client. It also generates the
+[PvP findings](docs/pvp-findings.md), [data](docs/pvp-data.json) and
+[source audit](docs/pvp-audit.json).
 
 To preview locally:
 

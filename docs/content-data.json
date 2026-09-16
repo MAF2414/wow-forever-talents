@@ -99745,5 +99745,2885 @@
         "sha256": "1cc783a7f1b129a603a9941caef1277e29a5083a8c35803fbaec8b9717bb2094"
       }
     ]
+  },
+  "pvp": {
+    "build": "1.60.1.69876",
+    "date": "2026-09-17",
+    "honor": {
+      "ID": 1792,
+      "Name_lang": "Honor Points",
+      "Description_lang": "Honor is gained by killing members of the opposite faction in PvP combat. You can use honor points to purchase special items.",
+      "CategoryID": 2,
+      "InventoryIconFileID": 0,
+      "SpellWeight": 0,
+      "SpellCategory": 0,
+      "MaxQty": 15000,
+      "MaxEarnablePerWeek": 0,
+      "Quality": 1,
+      "FactionID": 0,
+      "ItemGroupSoundsID": 0,
+      "XpQuestDifficulty": 0,
+      "AwardConditionID": 0,
+      "MaxQtyWorldStateID": 0,
+      "RechargingAmountPerCycle": 0,
+      "RechargingCycleDurationMS": 0,
+      "WarbondTransferPercentage": 0,
+      "MaxQtyCurveID": 0,
+      "OrderIndex": 0,
+      "RecraftReagentCountPercentage": 0,
+      "OrderSource": 0,
+      "MCRCurrencyID": 0,
+      "Flags": [
+        2097152,
+        0
+      ]
+    },
+    "rankPoints": {
+      "ID": 3468,
+      "Name_lang": "Rank Points",
+      "Description_lang": "Rank points are gained by completing tasks given in Gadgetzan or participating in battlegrounds. Rank points increase your PvP Rank which grants you access to purchase special items.",
+      "CategoryID": 2,
+      "InventoryIconFileID": 2022762,
+      "SpellWeight": 0,
+      "SpellCategory": 0,
+      "MaxQty": 0,
+      "MaxEarnablePerWeek": 0,
+      "Quality": 1,
+      "FactionID": 2800,
+      "ItemGroupSoundsID": 0,
+      "XpQuestDifficulty": 0,
+      "AwardConditionID": 0,
+      "MaxQtyWorldStateID": 0,
+      "RechargingAmountPerCycle": 0,
+      "RechargingCycleDurationMS": 0,
+      "WarbondTransferPercentage": 0,
+      "MaxQtyCurveID": 0,
+      "OrderIndex": 0,
+      "RecraftReagentCountPercentage": 0,
+      "OrderSource": 0,
+      "MCRCurrencyID": 0,
+      "Flags": [
+        33562632,
+        4
+      ]
+    },
+    "rankCurrency": {
+      "ID": 3473,
+      "Name_lang": "Renown - PvP Rank",
+      "Description_lang": "[DNT]",
+      "CategoryID": 142,
+      "InventoryIconFileID": 0,
+      "SpellWeight": 0,
+      "SpellCategory": 0,
+      "MaxQty": 14,
+      "MaxEarnablePerWeek": 0,
+      "Quality": 0,
+      "FactionID": 0,
+      "ItemGroupSoundsID": 0,
+      "XpQuestDifficulty": 0,
+      "AwardConditionID": 0,
+      "MaxQtyWorldStateID": 0,
+      "RechargingAmountPerCycle": 0,
+      "RechargingCycleDurationMS": 0,
+      "WarbondTransferPercentage": 0,
+      "MaxQtyCurveID": 102601,
+      "OrderIndex": 0,
+      "RecraftReagentCountPercentage": 0,
+      "OrderSource": 0,
+      "MCRCurrencyID": 0,
+      "Flags": [
+        68943872,
+        64
+      ]
+    },
+    "ranks": [
+      {
+        "rank": 1,
+        "alliance": "Private",
+        "horde": "Scout",
+        "rewards": [
+          "Faction Tabard"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1832,
+            "name": "Faction Tabard",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13009,
+          13173
+        ]
+      },
+      {
+        "rank": 2,
+        "alliance": "Corporal",
+        "horde": "Grunt",
+        "rewards": [
+          "Insignia Trinket"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1833,
+            "name": "Insignia Trinket",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13013,
+          13011
+        ]
+      },
+      {
+        "rank": 3,
+        "alliance": "Sergeant",
+        "horde": "Sergeant",
+        "rewards": [
+          "Faction Cloak"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1834,
+            "name": "Faction Cloak",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13017,
+          13015
+        ]
+      },
+      {
+        "rank": 4,
+        "alliance": "Master Sergeant",
+        "horde": "Senior Sergeant",
+        "rewards": [
+          "Faction Necklace"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1835,
+            "name": "Faction Necklace",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13967,
+          13019
+        ]
+      },
+      {
+        "rank": 5,
+        "alliance": "Sergeant Major",
+        "horde": "First Sergeant",
+        "rewards": [
+          "Combat Potions"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1836,
+            "name": "Combat Potions",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13023,
+          13021
+        ]
+      },
+      {
+        "rank": 6,
+        "alliance": "Knight",
+        "horde": "Stone Guard",
+        "rewards": [
+          "Elite Faction Tabard"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1837,
+            "name": "Elite Faction Tabard",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13025,
+          13024
+        ]
+      },
+      {
+        "rank": 7,
+        "alliance": "Knight-Lieutenant",
+        "horde": "Blood Guard",
+        "rewards": [
+          "Battle Standard"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1838,
+            "name": "Battle Standard",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13612,
+          13027
+        ]
+      },
+      {
+        "rank": 8,
+        "alliance": "Knight-Captain",
+        "horde": "Legionnaire",
+        "rewards": [
+          "Elite Wrist Upgrade",
+          "Elite Waist Upgrade"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1839,
+            "name": "Elite Wrist Upgrade",
+            "conditionID": 0
+          },
+          {
+            "id": 2008,
+            "name": "Elite Waist Upgrade",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13969,
+          13030
+        ]
+      },
+      {
+        "rank": 9,
+        "alliance": "Knight-Champion",
+        "horde": "Centurion",
+        "rewards": [
+          "Elite Boot Upgrade"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1840,
+            "name": "Elite Boot Upgrade",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13034,
+          13613
+        ]
+      },
+      {
+        "rank": 10,
+        "alliance": "Lieutenant Commander",
+        "horde": "Champion",
+        "rewards": [
+          "Elite Glove Upgrade"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1841,
+            "name": "Elite Glove Upgrade",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13037,
+          13036
+        ]
+      },
+      {
+        "rank": 11,
+        "alliance": "Commander",
+        "horde": "Lieutenant General",
+        "rewards": [
+          "Black War Mounts"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1842,
+            "name": "Black War Mounts",
+            "conditionID": 923
+          },
+          {
+            "id": 2009,
+            "name": "Black War Mounts",
+            "conditionID": 924
+          }
+        ],
+        "titleStringIDs": [
+          13615,
+          13038
+        ]
+      },
+      {
+        "rank": 12,
+        "alliance": "Marshal",
+        "horde": "General",
+        "rewards": [
+          "Elite Leg Upgrade",
+          "Elite Shoulder Upgrade"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1843,
+            "name": "Elite Leg Upgrade",
+            "conditionID": 0
+          },
+          {
+            "id": 2010,
+            "name": "Elite Shoulder Upgrade",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13616,
+          13041
+        ]
+      },
+      {
+        "rank": 13,
+        "alliance": "Field Marshal",
+        "horde": "Warlord",
+        "rewards": [
+          "Elite Chest Upgrade",
+          "Elite Helmet Upgrade"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1844,
+            "name": "Elite Chest Upgrade",
+            "conditionID": 0
+          },
+          {
+            "id": 2011,
+            "name": "Elite Helmet Upgrade",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13971,
+          13044
+        ]
+      },
+      {
+        "rank": 14,
+        "alliance": "Grand Marshal",
+        "horde": "High Warlord",
+        "rewards": [
+          "Weapon Arsenal"
+        ],
+        "rewardRecords": [
+          {
+            "id": 1845,
+            "name": "Weapon Arsenal",
+            "conditionID": 0
+          }
+        ],
+        "titleStringIDs": [
+          13046,
+          13045
+        ]
+      }
+    ],
+    "rankCapCurve": [
+      {
+        "input": 0,
+        "maxRank": 0,
+        "pointID": 309059
+      },
+      {
+        "input": 1,
+        "maxRank": 3,
+        "pointID": 309060
+      },
+      {
+        "input": 2,
+        "maxRank": 5,
+        "pointID": 309061
+      },
+      {
+        "input": 3,
+        "maxRank": 6,
+        "pointID": 309062
+      },
+      {
+        "input": 4,
+        "maxRank": 7,
+        "pointID": 309063
+      },
+      {
+        "input": 5,
+        "maxRank": 8,
+        "pointID": 309064
+      },
+      {
+        "input": 6,
+        "maxRank": 9,
+        "pointID": 309065
+      },
+      {
+        "input": 7,
+        "maxRank": 11,
+        "pointID": 309066
+      },
+      {
+        "input": 8,
+        "maxRank": 12,
+        "pointID": 309067
+      },
+      {
+        "input": 9,
+        "maxRank": 13,
+        "pointID": 309068
+      },
+      {
+        "input": 10,
+        "maxRank": 14,
+        "pointID": 309069
+      },
+      {
+        "input": 11,
+        "maxRank": 14,
+        "pointID": 309070
+      }
+    ],
+    "rankThresholdCurve": [
+      {
+        "input": 0,
+        "value": 0,
+        "pointID": 312988
+      },
+      {
+        "input": 1,
+        "value": 750,
+        "pointID": 312989
+      },
+      {
+        "input": 2,
+        "value": 900,
+        "pointID": 312990
+      },
+      {
+        "input": 3,
+        "value": 1050,
+        "pointID": 312991
+      },
+      {
+        "input": 4,
+        "value": 1200,
+        "pointID": 312992
+      },
+      {
+        "input": 5,
+        "value": 1350,
+        "pointID": 312993
+      },
+      {
+        "input": 6,
+        "value": 1500,
+        "pointID": 312994
+      },
+      {
+        "input": 7,
+        "value": 1650,
+        "pointID": 312995
+      },
+      {
+        "input": 8,
+        "value": 1800,
+        "pointID": 312996
+      },
+      {
+        "input": 9,
+        "value": 1950,
+        "pointID": 312997
+      },
+      {
+        "input": 10,
+        "value": 2100,
+        "pointID": 312998
+      },
+      {
+        "input": 11,
+        "value": 2350,
+        "pointID": 312999
+      },
+      {
+        "input": 12,
+        "value": 2500,
+        "pointID": 313000
+      },
+      {
+        "input": 13,
+        "value": 2650,
+        "pointID": 313001
+      },
+      {
+        "input": 14,
+        "value": 3000,
+        "pointID": 313002
+      }
+    ],
+    "progressionStrings": [
+      {
+        "ID": 58726,
+        "BaseTag": "PVP_RANK_SEASON_RANKUP_DESCRIPTION",
+        "TagText_lang": "Each week, the Rank Points cap is increased, up to a maximum of |cnHIGHLIGHT_FONT_COLOR:%d|r for |cnHIGHLIGHT_FONT_COLOR:Rank %d|r.",
+        "Flags": 1
+      },
+      {
+        "ID": 58725,
+        "BaseTag": "PVP_RANK_WEEKLY_CAP_INCREASE",
+        "TagText_lang": "Cap increase this week: |cnHIGHLIGHT_FONT_COLOR:%d|r",
+        "Flags": 1
+      },
+      {
+        "ID": 58728,
+        "BaseTag": "PVP_RANK_REWARDS_VENDOR_ALLIANCE",
+        "TagText_lang": "|cFFFFFFFFRewards may be purchased at the Champion's Hall in Stormwind.|r",
+        "Flags": 1
+      },
+      {
+        "ID": 58729,
+        "BaseTag": "PVP_RANK_REWARDS_VENDOR_HORDE",
+        "TagText_lang": "|cFFFFFFFFRewards may be purchased at the Hall of Legends in Orgrimmar.|r",
+        "Flags": 1
+      }
+    ],
+    "seasonRecords": [
+      {
+        "ID": 36,
+        "MilestoneSeason": 1,
+        "AllianceAchievementID": 0,
+        "HordeAchievementID": 0
+      }
+    ],
+    "battlegrounds": [
+      {
+        "id": 1,
+        "name": "Alterac Valley",
+        "status": "classic",
+        "InstanceType": 3,
+        "PvpType": 0,
+        "MinLevel": 51,
+        "MaxLevel": 60,
+        "MinPlayers": 10,
+        "MaxPlayers": 40,
+        "MaxGroupSize": 5,
+        "RatedPlayers": 0,
+        "Required_Player_Condition_ID": 68236,
+        "mapIDs": [
+          30
+        ],
+        "maps": [
+          {
+            "id": 30,
+            "name": "Alterac Valley",
+            "inCurrentMapTable": true
+          }
+        ],
+        "brackets": [
+          {
+            "min": 51,
+            "max": 60,
+            "id": 1354
+          }
+        ],
+        "description": "Hidden within the Alterac Mountains, Alterac Valley is the home of Thrall's own clan of orcs, the Frostwolves. The Stormpike dwarves have established a foothold in the valley and seek to plumb its depths for riches, and links to their ancestral past. The territorial Frostwolves, unwilling to suffer the dwarven incursion, have rallied an army... an army eager for righteous slaughter.",
+        "differences": []
+      },
+      {
+        "id": 2,
+        "name": "Warsong Gulch",
+        "status": "classic",
+        "InstanceType": 3,
+        "PvpType": 0,
+        "MinLevel": 10,
+        "MaxLevel": 60,
+        "MinPlayers": 1,
+        "MaxPlayers": 10,
+        "MaxGroupSize": 10,
+        "RatedPlayers": 0,
+        "Required_Player_Condition_ID": 69758,
+        "mapIDs": [
+          489
+        ],
+        "maps": [
+          {
+            "id": 489,
+            "name": "Warsong Gulch",
+            "inCurrentMapTable": true
+          }
+        ],
+        "brackets": [
+          {
+            "min": 10,
+            "max": 19,
+            "id": 1355
+          },
+          {
+            "min": 20,
+            "max": 29,
+            "id": 1356
+          },
+          {
+            "min": 30,
+            "max": 39,
+            "id": 1357
+          },
+          {
+            "min": 40,
+            "max": 49,
+            "id": 1358
+          },
+          {
+            "min": 50,
+            "max": 59,
+            "id": 1359
+          },
+          {
+            "min": 60,
+            "max": 60,
+            "id": 1360
+          }
+        ],
+        "description": "A valley bordering Ashenvale Forest and the Barrens, Warsong Gulch hosts a constant battle between the Horde and the Alliance. Orcs use their Warsong Mill to cut lumber reaped from Ashenvale, provoking the night elves of Silverwing Hold. Eager to aid their allies, members of every race in Azeroth rush to the Gulch to lend sword, or spell, to the conflict.",
+        "differences": [
+          {
+            "field": "MinPlayers",
+            "old": 5,
+            "new": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Arathi Basin",
+        "status": "classic",
+        "InstanceType": 3,
+        "PvpType": 0,
+        "MinLevel": 20,
+        "MaxLevel": 60,
+        "MinPlayers": 1,
+        "MaxPlayers": 15,
+        "MaxGroupSize": 15,
+        "RatedPlayers": 0,
+        "Required_Player_Condition_ID": 68238,
+        "mapIDs": [
+          529
+        ],
+        "maps": [
+          {
+            "id": 529,
+            "name": "Arathi Basin",
+            "inCurrentMapTable": true
+          }
+        ],
+        "brackets": [
+          {
+            "min": 20,
+            "max": 29,
+            "id": 1361
+          },
+          {
+            "min": 30,
+            "max": 39,
+            "id": 1362
+          },
+          {
+            "min": 40,
+            "max": 49,
+            "id": 1363
+          },
+          {
+            "min": 50,
+            "max": 59,
+            "id": 1364
+          },
+          {
+            "min": 60,
+            "max": 60,
+            "id": 1365
+          }
+        ],
+        "description": "The Arathi Basin is one of the main staging points of war between the Humans and the Forsaken in Azeroth. The League of Arathor seek to reclaim lost lands for their benefactors in Stormwind, while the Defilers – elite troopers under the watchful eye of Varimathras – seek to sever the vital connection between the Humans and their Dwarven allies to the south.",
+        "differences": [
+          {
+            "field": "MinPlayers",
+            "old": 8,
+            "new": 1
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Random Battleground",
+        "status": "new",
+        "InstanceType": 3,
+        "PvpType": 0,
+        "MinLevel": 10,
+        "MaxLevel": 60,
+        "MinPlayers": 5,
+        "MaxPlayers": 10,
+        "MaxGroupSize": 5,
+        "RatedPlayers": 0,
+        "Required_Player_Condition_ID": 0,
+        "mapIDs": [
+          489,
+          529,
+          2997
+        ],
+        "maps": [
+          {
+            "id": 489,
+            "name": "Warsong Gulch",
+            "inCurrentMapTable": true
+          },
+          {
+            "id": 529,
+            "name": "Arathi Basin",
+            "inCurrentMapTable": true
+          },
+          {
+            "id": 2997,
+            "name": "Darkspear Islands",
+            "inCurrentMapTable": true
+          }
+        ],
+        "brackets": [
+          {
+            "min": 10,
+            "max": 19,
+            "id": 1355
+          },
+          {
+            "min": 20,
+            "max": 29,
+            "id": 1356
+          },
+          {
+            "min": 20,
+            "max": 29,
+            "id": 1361
+          },
+          {
+            "min": 30,
+            "max": 39,
+            "id": 1357
+          },
+          {
+            "min": 30,
+            "max": 39,
+            "id": 1362
+          },
+          {
+            "min": 30,
+            "max": 39,
+            "id": 1823
+          },
+          {
+            "min": 40,
+            "max": 49,
+            "id": 1358
+          },
+          {
+            "min": 40,
+            "max": 49,
+            "id": 1363
+          },
+          {
+            "min": 40,
+            "max": 49,
+            "id": 1879
+          },
+          {
+            "min": 50,
+            "max": 59,
+            "id": 1359
+          },
+          {
+            "min": 50,
+            "max": 59,
+            "id": 1364
+          },
+          {
+            "min": 50,
+            "max": 59,
+            "id": 1824
+          },
+          {
+            "min": 60,
+            "max": 60,
+            "id": 1360
+          },
+          {
+            "min": 60,
+            "max": 60,
+            "id": 1365
+          },
+          {
+            "min": 60,
+            "max": 60,
+            "id": 1825
+          }
+        ],
+        "description": "",
+        "differences": []
+      },
+      {
+        "id": 901,
+        "name": "Random Epic Battleground",
+        "status": "new",
+        "InstanceType": 3,
+        "PvpType": 0,
+        "MinLevel": 10,
+        "MaxLevel": 60,
+        "MinPlayers": 5,
+        "MaxPlayers": 10,
+        "MaxGroupSize": 5,
+        "RatedPlayers": 0,
+        "Required_Player_Condition_ID": 0,
+        "mapIDs": [],
+        "maps": [],
+        "brackets": [],
+        "description": "",
+        "differences": []
+      },
+      {
+        "id": 1122,
+        "name": "Battle for Blackrock",
+        "status": "inherited",
+        "InstanceType": 3,
+        "PvpType": 0,
+        "MinLevel": 50,
+        "MaxLevel": 60,
+        "MinPlayers": 8,
+        "MaxPlayers": 15,
+        "MaxGroupSize": 15,
+        "RatedPlayers": 0,
+        "Required_Player_Condition_ID": 123876,
+        "mapIDs": [
+          2777
+        ],
+        "maps": [
+          {
+            "id": 2777,
+            "name": "Map 2777",
+            "inCurrentMapTable": false
+          }
+        ],
+        "brackets": [
+          {
+            "min": 50,
+            "max": 59,
+            "id": 1717
+          },
+          {
+            "min": 60,
+            "max": 60,
+            "id": 1716
+          }
+        ],
+        "description": "[PH] Blackrock PvP - Long Description",
+        "differences": []
+      },
+      {
+        "id": 1157,
+        "name": "Darkspear Islands",
+        "status": "new",
+        "InstanceType": 3,
+        "PvpType": 0,
+        "MinLevel": 30,
+        "MaxLevel": 60,
+        "MinPlayers": 1,
+        "MaxPlayers": 15,
+        "MaxGroupSize": 15,
+        "RatedPlayers": 0,
+        "Required_Player_Condition_ID": 158128,
+        "mapIDs": [
+          2997
+        ],
+        "maps": [
+          {
+            "id": 2997,
+            "name": "Darkspear Islands",
+            "inCurrentMapTable": true
+          }
+        ],
+        "brackets": [
+          {
+            "min": 30,
+            "max": 39,
+            "id": 1823
+          },
+          {
+            "min": 40,
+            "max": 49,
+            "id": 1879
+          },
+          {
+            "min": 50,
+            "max": 59,
+            "id": 1824
+          },
+          {
+            "min": 60,
+            "max": 60,
+            "id": 1825
+          }
+        ],
+        "description": "Off the coast of Kalimdor is the storm-torn islands of the Darkspear tribe.  These islands are coveted by the trolls for their spiritual significance - but the encroaching Alliance seek to gain a foothold off the coast of Durotar.",
+        "differences": []
+      },
+      {
+        "id": 1159,
+        "name": "Battle for Gilneas",
+        "status": "new",
+        "InstanceType": 3,
+        "PvpType": 0,
+        "MinLevel": 0,
+        "MaxLevel": 0,
+        "MinPlayers": 8,
+        "MaxPlayers": 10,
+        "MaxGroupSize": 5,
+        "RatedPlayers": 10,
+        "Required_Player_Condition_ID": 0,
+        "mapIDs": [],
+        "maps": [],
+        "brackets": [],
+        "description": "",
+        "differences": []
+      },
+      {
+        "id": 1168,
+        "name": "Hyjal Crater",
+        "status": "new",
+        "InstanceType": 4,
+        "PvpType": 1,
+        "MinLevel": 0,
+        "MaxLevel": 0,
+        "MinPlayers": 0,
+        "MaxPlayers": 5,
+        "MaxGroupSize": 5,
+        "RatedPlayers": 5,
+        "Required_Player_Condition_ID": 0,
+        "mapIDs": [
+          2995
+        ],
+        "maps": [
+          {
+            "id": 2995,
+            "name": "Hyjal Crater",
+            "inCurrentMapTable": true
+          }
+        ],
+        "brackets": [
+          {
+            "min": 1,
+            "max": 60,
+            "id": 1878
+          }
+        ],
+        "description": "",
+        "differences": []
+      },
+      {
+        "id": 1169,
+        "name": "Mak'gora Arena",
+        "status": "new",
+        "InstanceType": 4,
+        "PvpType": 1,
+        "MinLevel": 1,
+        "MaxLevel": 60,
+        "MinPlayers": 0,
+        "MaxPlayers": 5,
+        "MaxGroupSize": 5,
+        "RatedPlayers": 5,
+        "Required_Player_Condition_ID": 0,
+        "mapIDs": [
+          2995
+        ],
+        "maps": [
+          {
+            "id": 2995,
+            "name": "Hyjal Crater",
+            "inCurrentMapTable": true
+          }
+        ],
+        "brackets": [
+          {
+            "min": 1,
+            "max": 60,
+            "id": 1878
+          }
+        ],
+        "description": "",
+        "differences": []
+      }
+    ],
+    "darkspearObjectives": "- Capture and hold objectives\r\n- Capture the Darkspear relic\r\n- Earn 1500 resources",
+    "darkspearFactions": [
+      {
+        "id": 2798,
+        "name": "Darkspear Raiders",
+        "description": "Loyal to the troll nation, the Darkspear Raiders battle the Theramore Expeditionary Force for control of their ancestral Darkspear Islands."
+      },
+      {
+        "id": 2799,
+        "name": "Theramore Expeditionary Force",
+        "description": "Loyal partisans for their city, the Theramore Expeditionary Force battles the Darkspear Raiders for control of the so-called Darkspear Islands."
+      }
+    ],
+    "darkspearScoreboard": [
+      {
+        "statID": 1026,
+        "headerID": 1101,
+        "name": "Flag Captures"
+      },
+      {
+        "statID": 1027,
+        "headerID": 1102,
+        "name": "Bases Assaulted"
+      },
+      {
+        "statID": 1028,
+        "headerID": 1103,
+        "name": "Bases Defended"
+      }
+    ],
+    "darkspearSpells": [
+      {
+        "spellID": 1284560,
+        "name": "Darkspear Islands Flag",
+        "description": "You are holding the Darkspear Flag.\nTake this flag to any controlled point to gain Victory Points.",
+        "rawDescription": "You are holding the Darkspear Flag.\r\nTake this flag to any controlled point to gain Victory Points.\r\n",
+        "unresolved": false
+      },
+      {
+        "spellID": 1290859,
+        "name": "Darkspear Islands Iron Ration",
+        "description": "Restores $26474o1 health and $26475o2 mana over 30 sec.  Must remain seated while eating.  Usable only inside Darkspear Islands.",
+        "rawDescription": "Restores $26474o1 health and $26475o2 mana over $26474d.  Must remain seated while eating.  Usable only inside Darkspear Islands.",
+        "unresolved": true
+      },
+      {
+        "spellID": 1290860,
+        "name": "Darkspear Islands Field Ration",
+        "description": "Restores $26472o1 health and $26473o2 mana over 30 sec.  Must remain seated while eating.  Usable only inside Darkspear Islands.",
+        "rawDescription": "Restores $26472o1 health and $26473o2 mana over $26472d.  Must remain seated while eating.  Usable only inside Darkspear Islands.",
+        "unresolved": true
+      },
+      {
+        "spellID": 1290861,
+        "name": "Darkspear Islands Enriched Ration",
+        "description": "Restores $25695o1 health and $25696o2 mana over 30 sec.  Must remain seated while eating.  Usable only inside Darkspear Islands.",
+        "rawDescription": "Restores $25695o1 health and $25696o2 mana over $25695d.  Must remain seated while eating.  Usable only inside Darkspear Islands.",
+        "unresolved": true
+      }
+    ],
+    "reputationItems": [
+      {
+        "id": 271903,
+        "name": "Enriched Seal",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Friendly",
+        "reputationRank": 4,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Trinket",
+        "quality": 3,
+        "effects": [
+          {
+            "spellID": 1318131,
+            "name": "Enriched Seal",
+            "description": "Restores 5 Mana per 5 sec. Restores an additional 10 Mana per 5 sec in Forest and Grassland areas.",
+            "rawDescription": "Restores $s1 Mana per 5 sec. Restores an additional $1318125s1 Mana per 5 sec in Forest and Grassland areas.",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          },
+          {
+            "spellID": 1318132,
+            "name": "Enriched Seal",
+            "description": "",
+            "rawDescription": "",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          }
+        ],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271904,
+        "name": "Volunteer's Lucky Seal",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Friendly",
+        "reputationRank": 4,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Trinket",
+        "quality": 3,
+        "effects": [
+          {
+            "spellID": 1316057,
+            "name": "Volunteer's Lucky Seal",
+            "description": "Increases all Resistances by 3. Gain an additional 5 to all Resistances in Forest and Grassland areas.",
+            "rawDescription": "Increases all Resistances by $s1. Gain an additional $1316058s1 to all Resistances in Forest and Grassland areas.",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          },
+          {
+            "spellID": 1316058,
+            "name": "Volunteer's Lucky Seal",
+            "description": "",
+            "rawDescription": "",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          }
+        ],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271905,
+        "name": "Enriched Seal",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Friendly",
+        "reputationRank": 4,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Trinket",
+        "quality": 3,
+        "effects": [
+          {
+            "spellID": 1316053,
+            "name": "Enriched Seal",
+            "description": "Restores 3 Mana per 5 sec. Restores an additional 6 Mana per 5 sec in Forest and Grassland areas.",
+            "rawDescription": "Restores $s1 Mana per 5 sec. Restores an additional $1316054s1 Mana per 5 sec in Forest and Grassland areas.",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          },
+          {
+            "spellID": 1316054,
+            "name": "Enriched Seal",
+            "description": "",
+            "rawDescription": "",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          }
+        ],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271906,
+        "name": "Volunteer's Lucky Seal",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Friendly",
+        "reputationRank": 4,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Trinket",
+        "quality": 3,
+        "effects": [
+          {
+            "spellID": 1318102,
+            "name": "Volunteer's Lucky Seal",
+            "description": "Increases all Resistances by 4. Gain an additional 8 to all Resistances in Forest and Grassland areas.",
+            "rawDescription": "Increases all Resistances by $s1. Gain an additional $1318103s1 to all Resistances in Forest and Grassland areas.",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          },
+          {
+            "spellID": 1318103,
+            "name": "Volunteer's Lucky Seal",
+            "description": "",
+            "rawDescription": "",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          }
+        ],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271908,
+        "name": "Theramore Signet",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 63,
+        "requiredLevel": 58,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271909,
+        "name": "Theramore Signet",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271910,
+        "name": "Theramore Signet",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 43,
+        "requiredLevel": 38,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271911,
+        "name": "Theramore Signet",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271913,
+        "name": "Militant's Band",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 63,
+        "requiredLevel": 58,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271914,
+        "name": "Militant's Band",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271915,
+        "name": "Militant's Band",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 43,
+        "requiredLevel": 38,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271916,
+        "name": "Militant's Band",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271917,
+        "name": "Seal of the Expedition",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 63,
+        "requiredLevel": 58,
+        "slot": "Neck",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271918,
+        "name": "Seal of the Expedition",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Neck",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271919,
+        "name": "Seal of the Expedition",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 43,
+        "requiredLevel": 38,
+        "slot": "Neck",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271920,
+        "name": "Seal of the Expedition",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Neck",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271940,
+        "name": "Theramore Gauntlets",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 65,
+        "requiredLevel": 60,
+        "slot": "Hands",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271941,
+        "name": "Theramore Gauntlets",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 55,
+        "requiredLevel": 50,
+        "slot": "Hands",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271945,
+        "name": "Theramore Handwraps",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 65,
+        "requiredLevel": 60,
+        "slot": "Hands",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271946,
+        "name": "Theramore Handwraps",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 55,
+        "requiredLevel": 50,
+        "slot": "Hands",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 271955,
+        "name": "Theramore Pauldrons",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 65,
+        "requiredLevel": 60,
+        "slot": "Shoulder",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272059,
+        "name": "Darkspear Voodoo Seal",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Friendly",
+        "reputationRank": 4,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Trinket",
+        "quality": 3,
+        "effects": [
+          {
+            "spellID": 1316055,
+            "name": "Darkspear Voodoo Seal",
+            "description": "Restores 3 Mana per 5 sec. Restores an additional 6 Mana per 5 sec in Forest and Grassland areas.",
+            "rawDescription": "Restores $s1 Mana per 5 sec. Restores an additional $1316054s1 Mana per 5 sec in Forest and Grassland areas.",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          },
+          {
+            "spellID": 1316056,
+            "name": "Darkspear Voodoo Seal",
+            "description": "",
+            "rawDescription": "",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          }
+        ],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272060,
+        "name": "Relentless Raider's Seal",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Friendly",
+        "reputationRank": 4,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Trinket",
+        "quality": 3,
+        "effects": [
+          {
+            "spellID": 1318129,
+            "name": "Relentless Raider's Seal",
+            "description": "Increases all Resistances by 4. Gain an additional 8 to all Resistances in Forest and Grassland areas.",
+            "rawDescription": "Increases all Resistances by $s1. Gain an additional $1318103s1 to all Resistances in Forest and Grassland areas.",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          },
+          {
+            "spellID": 1318130,
+            "name": "Relentless Raider's Seal",
+            "description": "",
+            "rawDescription": "",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          }
+        ],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272061,
+        "name": "Darkspear Voodoo Seal",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Friendly",
+        "reputationRank": 4,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Trinket",
+        "quality": 3,
+        "effects": [
+          {
+            "spellID": 1318124,
+            "name": "Darkspear Voodoo Seal",
+            "description": "Restores 5 Mana per 5 sec. Restores an additional 10 Mana per 5 sec in Forest and Grassland areas.",
+            "rawDescription": "Restores $s1 Mana per 5 sec. Restores an additional $1318125s1 Mana per 5 sec in Forest and Grassland areas.",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          },
+          {
+            "spellID": 1318125,
+            "name": "Darkspear Voodoo Seal",
+            "description": "",
+            "rawDescription": "",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          }
+        ],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272062,
+        "name": "Relentless Raider's Seal",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Friendly",
+        "reputationRank": 4,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Trinket",
+        "quality": 3,
+        "effects": [
+          {
+            "spellID": 1316051,
+            "name": "Raider's Seal",
+            "description": "Increases all Resistances by 3. Gain an additional 5 to all Resistances in Forest and Grassland areas.",
+            "rawDescription": "Increases all Resistances by $s1. Gain an additional $1316052s1 to all Resistances in Forest and Grassland areas.",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          },
+          {
+            "spellID": 1316052,
+            "name": "Raider's Seal",
+            "description": "",
+            "rawDescription": "",
+            "unresolved": false,
+            "triggerType": 1,
+            "cooldownMS": -1
+          }
+        ],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272064,
+        "name": "Insurgent's Band",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 63,
+        "requiredLevel": 58,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272065,
+        "name": "Insurgent's Band",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272066,
+        "name": "Insurgent's Band",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 43,
+        "requiredLevel": 38,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272067,
+        "name": "Insurgent's Band",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272068,
+        "name": "Darkspear Signet",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 63,
+        "requiredLevel": 58,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272069,
+        "name": "Darkspear Signet",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272070,
+        "name": "Darkspear Signet",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 43,
+        "requiredLevel": 38,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272071,
+        "name": "Darkspear Signet",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Finger",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272072,
+        "name": "Darkspear Warding Pendant",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 63,
+        "requiredLevel": 58,
+        "slot": "Neck",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272073,
+        "name": "Darkspear Warding Pendant",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 53,
+        "requiredLevel": 48,
+        "slot": "Neck",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272074,
+        "name": "Darkspear Warding Pendant",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 43,
+        "requiredLevel": 38,
+        "slot": "Neck",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272075,
+        "name": "Darkspear Warding Pendant",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Honored",
+        "reputationRank": 5,
+        "itemLevel": 33,
+        "requiredLevel": 28,
+        "slot": "Neck",
+        "quality": 3,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272095,
+        "name": "Raider Gauntlets",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 65,
+        "requiredLevel": 60,
+        "slot": "Hands",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272096,
+        "name": "Raider Gauntlets",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 55,
+        "requiredLevel": 50,
+        "slot": "Hands",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272097,
+        "name": "Raider Handwraps",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 65,
+        "requiredLevel": 60,
+        "slot": "Hands",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272098,
+        "name": "Raider Handwraps",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 55,
+        "requiredLevel": 50,
+        "slot": "Hands",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 272105,
+        "name": "Darkspear Pauldrons",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 65,
+        "requiredLevel": 60,
+        "slot": "Shoulder",
+        "quality": 4,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 276502,
+        "name": "Darkspear Battle Tabard",
+        "factionID": 2798,
+        "faction": "Darkspear Raiders",
+        "side": "Horde",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 20,
+        "requiredLevel": 0,
+        "slot": "Tabard",
+        "quality": 1,
+        "effects": [],
+        "missingEffectIDs": []
+      },
+      {
+        "id": 276504,
+        "name": "Theramore Battle Tabard",
+        "factionID": 2799,
+        "faction": "Theramore Expeditionary Force",
+        "side": "Alliance",
+        "reputation": "Exalted",
+        "reputationRank": 7,
+        "itemLevel": 20,
+        "requiredLevel": 0,
+        "slot": "Tabard",
+        "quality": 1,
+        "effects": [],
+        "missingEffectIDs": []
+      }
+    ],
+    "sets": [
+      {
+        "id": 281,
+        "name": "Champion's Battlegear",
+        "class": "Warrior",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 282,
+        "name": "Lieutenant Commander's Battlegear",
+        "class": "Warrior",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 301,
+        "name": "Champion's Earthshaker",
+        "class": "Shaman",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 343,
+        "name": "Lieutenant Commander's Regalia",
+        "class": "Mage",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 344,
+        "name": "Lieutenant Commander's Raiment",
+        "class": "Priest",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 345,
+        "name": "Champion's Threads",
+        "class": "Warlock",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 346,
+        "name": "Lieutenant Commander's Threads",
+        "class": "Warlock",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 348,
+        "name": "Lieutenant Commander's Vestments",
+        "class": "Rogue",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 361,
+        "name": "Champion's Pursuit",
+        "class": "Hunter",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 362,
+        "name": "Lieutenant Commander's Pursuit",
+        "class": "Hunter",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 381,
+        "name": "Lieutenant Commander's Sanctuary",
+        "class": "Druid",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 382,
+        "name": "Champion's Sanctuary",
+        "class": "Druid",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 383,
+        "name": "Warlord's Battlegear",
+        "class": "Warrior",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 384,
+        "name": "Field Marshal's Battlegear",
+        "class": "Warrior",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 386,
+        "name": "Warlord's Earthshaker",
+        "class": "Shaman",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 387,
+        "name": "Warlord's Regalia",
+        "class": "Mage",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 388,
+        "name": "Field Marshal's Regalia",
+        "class": "Mage",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 389,
+        "name": "Field Marshal's Raiment",
+        "class": "Priest",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 390,
+        "name": "Warlord's Raiment",
+        "class": "Priest",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 391,
+        "name": "Warlord's Threads",
+        "class": "Warlock",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 392,
+        "name": "Field Marshal's Threads",
+        "class": "Warlock",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 393,
+        "name": "Warlord's Vestments",
+        "class": "Rogue",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 394,
+        "name": "Field Marshal's Vestments",
+        "class": "Rogue",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 395,
+        "name": "Field Marshal's Pursuit",
+        "class": "Hunter",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 396,
+        "name": "Warlord's Pursuit",
+        "class": "Hunter",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 397,
+        "name": "Field Marshal's Sanctuary",
+        "class": "Druid",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 398,
+        "name": "Warlord's Sanctuary",
+        "class": "Druid",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 401,
+        "name": "Lieutenant Commander's Aegis",
+        "class": "Paladin",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 402,
+        "name": "Field Marshal's Aegis",
+        "class": "Paladin",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 522,
+        "name": "Champion's Vestments",
+        "class": "Rogue",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 539,
+        "name": "Champion's Refuge",
+        "class": "Druid",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 546,
+        "name": "Champion's Regalia",
+        "class": "Mage",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 549,
+        "name": "Champion's Raiment",
+        "class": "Priest",
+        "faction": "Horde",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 551,
+        "name": "Lieutenant Commander's Refuge",
+        "class": "Druid",
+        "faction": "Alliance",
+        "status": "changed-classic",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2072,
+        "name": "Champion's Investiture",
+        "class": "Priest",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2073,
+        "name": "Warlord's Investiture",
+        "class": "Priest",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2074,
+        "name": "Field Marshal's Investiture",
+        "class": "Priest",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2075,
+        "name": "Lieutenant Commander's Investiture",
+        "class": "Priest",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2076,
+        "name": "Warlord's Refuge",
+        "class": "Druid",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2077,
+        "name": "Field Marshal's Refuge",
+        "class": "Druid",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2078,
+        "name": "Field Marshal's Wildhide",
+        "class": "Druid",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2079,
+        "name": "Warlord's Wildhide",
+        "class": "Druid",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2080,
+        "name": "Champion's Wildhide",
+        "class": "Druid",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2081,
+        "name": "Lieutenant Commander's Wildhide",
+        "class": "Druid",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2082,
+        "name": "Champion's Aegis",
+        "class": "Paladin",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2083,
+        "name": "Warlord's Aegis",
+        "class": "Paladin",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2084,
+        "name": "Champion's Vindication",
+        "class": "Paladin",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2085,
+        "name": "Warlord's Vindication",
+        "class": "Paladin",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2086,
+        "name": "Lieutenant Commander's Vindication",
+        "class": "Paladin",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2087,
+        "name": "Field Marshal's Vindication",
+        "class": "Paladin",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2088,
+        "name": "Lieutenant Commander's Earthshaker",
+        "class": "Shaman",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2089,
+        "name": "Field Marshal's Earthshaker",
+        "class": "Shaman",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2090,
+        "name": "Champion's Wartide",
+        "class": "Shaman",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2091,
+        "name": "Warlord's Wartide",
+        "class": "Shaman",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2092,
+        "name": "Lieutenant Commander's Wartide",
+        "class": "Shaman",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2093,
+        "name": "Field Marshal's Wartide",
+        "class": "Shaman",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2094,
+        "name": "Champion's Thunderfist",
+        "class": "Shaman",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2095,
+        "name": "Warlord's Thunderfist",
+        "class": "Shaman",
+        "faction": "Horde",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      },
+      {
+        "id": 2096,
+        "name": "Lieutenant Commander's Thunderfist",
+        "class": "Shaman",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          3
+        ],
+        "itemLevels": [
+          60
+        ]
+      },
+      {
+        "id": 2097,
+        "name": "Field Marshal's Thunderfist",
+        "class": "Shaman",
+        "faction": "Alliance",
+        "status": "new",
+        "quality": [
+          4
+        ],
+        "itemLevels": [
+          65
+        ]
+      }
+    ],
+    "honorCostEntries": [
+      {
+        "id": 11575,
+        "honor": 6000,
+        "requiredItems": [
+          {
+            "id": 20560,
+            "count": 15,
+            "name": "Alterac Valley Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11576,
+        "honor": 4250,
+        "requiredItems": [
+          {
+            "id": 20559,
+            "count": 10,
+            "name": "Arathi Basin Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11577,
+        "honor": 3000,
+        "requiredItems": [
+          {
+            "id": 20559,
+            "count": 10,
+            "name": "Arathi Basin Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11578,
+        "honor": 6250,
+        "requiredItems": [
+          {
+            "id": 20559,
+            "count": 15,
+            "name": "Arathi Basin Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11579,
+        "honor": 3000,
+        "requiredItems": [
+          {
+            "id": 20558,
+            "count": 10,
+            "name": "Warsong Gulch Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11580,
+        "honor": 5000,
+        "requiredItems": [
+          {
+            "id": 20558,
+            "count": 10,
+            "name": "Warsong Gulch Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11581,
+        "honor": 4000,
+        "requiredItems": [
+          {
+            "id": 20559,
+            "count": 10,
+            "name": "Arathi Basin Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11582,
+        "honor": 6000,
+        "requiredItems": [
+          {
+            "id": 20558,
+            "count": 15,
+            "name": "Warsong Gulch Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11583,
+        "honor": 5000,
+        "requiredItems": [
+          {
+            "id": 274895,
+            "count": 10,
+            "name": "Darkspear Islands Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11584,
+        "honor": 2000,
+        "requiredItems": []
+      },
+      {
+        "id": 11585,
+        "honor": 1500,
+        "requiredItems": []
+      },
+      {
+        "id": 11586,
+        "honor": 750,
+        "requiredItems": []
+      },
+      {
+        "id": 11587,
+        "honor": 1750,
+        "requiredItems": []
+      },
+      {
+        "id": 11588,
+        "honor": 750,
+        "requiredItems": []
+      },
+      {
+        "id": 11589,
+        "honor": 1500,
+        "requiredItems": []
+      },
+      {
+        "id": 11590,
+        "honor": 1000,
+        "requiredItems": []
+      },
+      {
+        "id": 11591,
+        "honor": 2000,
+        "requiredItems": []
+      },
+      {
+        "id": 11592,
+        "honor": 1000,
+        "requiredItems": []
+      },
+      {
+        "id": 11593,
+        "honor": 8000,
+        "requiredItems": [
+          {
+            "id": 274895,
+            "count": 10,
+            "name": "Darkspear Islands Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11594,
+        "honor": 15000,
+        "requiredItems": [
+          {
+            "id": 20560,
+            "count": 20,
+            "name": "Alterac Valley Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11595,
+        "honor": 5000,
+        "requiredItems": [
+          {
+            "id": 274895,
+            "count": 10,
+            "name": "Darkspear Islands Mark of Honor"
+          }
+        ]
+      },
+      {
+        "id": 11596,
+        "honor": 3500,
+        "requiredItems": []
+      },
+      {
+        "id": 11706,
+        "honor": 7000,
+        "requiredItems": [
+          {
+            "id": 274895,
+            "count": 10,
+            "name": "Darkspear Islands Mark of Honor"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "ranks": 14,
+      "reputationItems": 44,
+      "newSets": 26,
+      "updatedClassicSets": 34,
+      "newBattlemasterRecords": 6
+    },
+    "sourceFiles": {
+      "ranks": "https://github.com/Gethe/wow-ui-source/blob/f0da0a9171aa736c8a64d2b3a8ae70195f5d2afb/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PVPRankFrame.lua",
+      "announcement": "https://worldofwarcraft.blizzard.com/en-us/news/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    }
   }
 }
