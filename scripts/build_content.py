@@ -202,6 +202,9 @@ def main():
     assert '1 sec' in next(b['description'] for b in hunter['bonuses'] if b['threshold']==5)
     raw=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
     template=(ROOT/'site/content.template.html').read_text(encoding='utf-8')
+    model_data=ROOT/'docs/models-data.json'
+    model_ids=[s['id'] for s in json.loads(model_data.read_text(encoding='utf-8'))['sets']] if model_data.exists() else []
+    template=template.replace('/*MODEL_SET_IDS*/[]',json.dumps(model_ids))
     html=template.replace('/*CONTENT_DATA*/null',raw).replace('/*PVP_SCRIPT*/',(ROOT/'site/pvp.js').read_text(encoding='utf-8'))
     for folder in ['docs','dist']:
         (ROOT/folder/'content.html').write_text(html,encoding='utf-8')
