@@ -84,7 +84,8 @@ class Context:
                 if field in ('ManaCost','ManaCostPerLevel','ManaPerSecond'):v/=self.power_divisors.get(int(p['PowerType']),1)
                 if v:parts.append(f'{num(v)}{label}')
             if parts:costs.append(' + '.join(parts)+' '+power_names.get(int(p['PowerType']),f'Resource {p["PowerType"]}'))
-        metrics={'Level':int(level.get('SpellLevel',0)),'Cost':'; '.join(costs) or '—','Cast time (sec)':num(float(cast.get('Base',0))/1000),'Cooldown (sec)':num(max(float(cd.get('RecoveryTime',0)),float(cd.get('CategoryRecoveryTime',0)))/1000),'Duration (sec)':num(float(dur.get('Duration',0))/1000),'Range':f'{num(ran.get("RangeMin_0",0))}–{num(ran.get("RangeMax_0",0))} yd'}
+        duration=float(dur.get('Duration',0))
+        metrics={'Level':int(level.get('SpellLevel',0)),'Cost':'; '.join(costs) or '—','Cast time (sec)':num(float(cast.get('Base',0))/1000),'Cooldown (sec)':num(max(float(cd.get('RecoveryTime',0)),float(cd.get('CategoryRecoveryTime',0)))/1000),'Duration (sec)':'Unlimited' if duration<0 else num(duration/1000),'Range':f'{num(ran.get("RangeMin_0",0))}–{num(ran.get("RangeMax_0",0))} yd'}
         efkeys=['Effect','EffectAura','EffectAuraPeriod','EffectBasePointsF','Variance','EffectBonusCoefficient','EffectRealPointsPerLevel','Coefficient','BonusCoefficientFromAP','ResourceCoefficient','EffectTriggerSpell','EffectChainTargets','EffectMiscValue_0','EffectMiscValue_1']
         effects=[{'index':int(e['EffectIndex']),**{k:num(e.get(k,0)) for k in efkeys}} for e in sorted(self.effects[sid],key=lambda e:int(e['EffectIndex']))]
         iid=int(misc.get('SpellIconFileDataID',0))
@@ -109,7 +110,7 @@ def classic_trees(ctx,cid,names):
             e={'id':int(r['ID']),'spellID':ids[0],'spellIDs':ids,'name':first['name'],'description':first['rawDescription'],'maxRanks':len(ids),'iconID':first['iconID'],'ranks':ranks,'baseValueNotice':base_notice}
             talents.append({'id':-int(r['ID']),'row':int(r['TierID']),'x':12.5+25*int(r['ColumnIndex']),'requiredPoints':5*int(r['TierID']),'entries':[e],'classic':True})
             for i in range(3):
-                if int(r[f'PrereqTalent_{i}']):edges.append({'from':-int(r[f'PrereqTalent_{i}']),'to':-int(r['ID']),'type':3})
+                if int(r[f'PrereqTalent_{i}']):edges.append({'from':-int(r[f'PrereqTalent_{i}']),'to':-int(r['ID']),'type':3,'requiredRanks':int(r[f'PrereqRank_{i}'])+1})
         trees.append({'id':f'classic-{tid}','name':names[int(tab['OrderIndex'])],'talents':sorted(talents,key=lambda t:(t['row'],t['x'])),'edges':edges,'rows':7,'classic':True})
     return trees
 
@@ -118,8 +119,10 @@ def flat(trees):
     for i,tree in enumerate(trees):
         lookup={t['id']:t for t in tree['talents']}
         for t in tree['talents']:
-            prerequisites=sorted(lookup[e['from']]['entries'][0]['name'] for e in tree['edges'] if e['to']==t['id'] and e['from'] in lookup)
-            result.append({**t,'tree':tree['name'],'treeIndex':i,'prerequisites':prerequisites})
+            incoming=[e for e in tree['edges'] if e['to']==t['id'] and e['from'] in lookup]
+            prerequisites=sorted(f"{lookup[e['from']]['entries'][0]['name']} (rank {e['requiredRanks']})" for e in incoming)
+            mode='any' if len(incoming)>1 and all(e['type']==2 for e in incoming) else 'all'
+            result.append({**t,'tree':tree['name'],'treeIndex':i,'prerequisites':prerequisites,'prerequisiteMode':mode})
     return result
 
 def talent_comparison(old,new):
@@ -137,6 +140,8 @@ def talent_comparison(old,new):
             if n['treeIndex']!=o['treeIndex']:diff.append(f'Tree: {o["tree"]} → {n["tree"]}')
             if (n['row'],round(n['x']))!=(o['row'],round(o['x'])):diff.append(f'Position: row {o["row"]+1} → {n["row"]+1}, column {round((o["x"]-12.5)/25)+1} → {round((n["x"]-12.5)/25)+1}')
             if n['prerequisites']!=o['prerequisites']:diff.append('Requirements: '+(', '.join(o['prerequisites']) or 'no connection')+' → '+(', '.join(n['prerequisites']) or 'no connection'))
+            if n['prerequisiteMode']!=o['prerequisiteMode']:diff.append('Requirement logic: '+o['prerequisiteMode']+' → '+n['prerequisiteMode'])
+            if n.get('additionalConditions'):diff.append('Additional client condition (evaluation unverified)')
             if [normalize(r['description']) for r in ne['ranks']] != [normalize(r['description']) for r in oe['ranks']]:diff.append('Description / rank values')
             if normalize(ne['name'])!=normalize(oe['name']):diff.append('Name')
         status='changed' if diff else 'unchanged'

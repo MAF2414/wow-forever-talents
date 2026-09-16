@@ -1,0 +1,426 @@
+{
+  "build": "1.60.1.69876",
+  "tables": 42,
+  "rows": 243982,
+  "comparedFields": 3685417,
+  "passed": true,
+  "date": "2026-09-16",
+  "source": "Blizzard public CDN; enUS locale",
+  "buildConfig": "e7fab7248766e9e7daddb3b6083c9c3c",
+  "extractedTables": 51,
+  "decodedBytes": 9583376,
+  "floatTolerance": {
+    "relative": 1e-06,
+    "absolute": 1e-06
+  },
+  "files": [
+    {
+      "table": "Curve",
+      "fileDataID": 892585,
+      "rows": 17198,
+      "bytes": 51936,
+      "sha256": "5da8c9943c04bc7b4e6ac0ab0214f25b3cbe2c09f4fa4ba503c27614bcd589ee",
+      "schemaSHA256": "bc92471e4b4f9746cbf6d9f95d6557b6e322be15586585d48953a57772b54f6c"
+    },
+    {
+      "table": "CurvePoint",
+      "fileDataID": 892586,
+      "rows": 36914,
+      "bytes": 1181646,
+      "sha256": "d05c620bed8b2d3d0bc74cda2e6f17aa69bc80f389e24392798f836934a425d7",
+      "schemaSHA256": "608dd82472c37ace846d8117da80878e4b732d7439d3b7bb70a62a6d05e8792c"
+    },
+    {
+      "table": "SpellPower",
+      "fileDataID": 982806,
+      "rows": 3428,
+      "bytes": 55513,
+      "sha256": "dd4649c0e5d92600d512e429dfd95a9f26197fcf62a405c7baa89e742e7b8d2f",
+      "schemaSHA256": "016cbc23846774e67072854e6333518057227cf4c39804787f4968908cc88964"
+    },
+    {
+      "table": "SpellLearnSpell",
+      "fileDataID": 1001907,
+      "rows": 52,
+      "bytes": 1278,
+      "sha256": "836ad75e7739fc9ad29b92a6d49f605afbf79b5e1bda8d937c3d666fa0a71703",
+      "schemaSHA256": "71770cff0b741e17fbe869a84dd7a79846d7caf5af6a9ecba2866bc06d108b0b"
+    },
+    {
+      "table": "SpellCastingRequirements",
+      "fileDataID": 1002166,
+      "rows": 3256,
+      "bytes": 40386,
+      "sha256": "67c0484663e2403e9ca407a09194e6fc9aecbadb410f495d354981437c6f2b22",
+      "schemaSHA256": "bd1aa1f9cac7795494cd047eebb5c0792c176aa45c53d0bb6ab7880c64bdd6cb"
+    },
+    {
+      "table": "SpellMisc",
+      "fileDataID": 1003144,
+      "rows": 31748,
+      "bytes": 3015814,
+      "sha256": "50612f1a203a60155557e611c5d0e56392f9a95148ecce20b03da2a46fd8f1fc",
+      "schemaSHA256": "631f20aa23530a58842b942ce4d213899878aeb9eca17f9a91227312af70d305"
+    },
+    {
+      "table": "SpellCastTimes",
+      "fileDataID": 1134089,
+      "rows": 72,
+      "bytes": 1014,
+      "sha256": "a469dd6af49056be56f57032a5d5925c0d194c10ccadeac9e784b68facaff893",
+      "schemaSHA256": "cfe62e2dd0538a9436a539bcab3b2c76be35b7364dcb11849d726e4f07cfc825"
+    },
+    {
+      "table": "SpellRadius",
+      "fileDataID": 1134584,
+      "rows": 53,
+      "bytes": 1051,
+      "sha256": "521c4450e8845730884eff5c77ebf7afddb664a5d037dc6a013ce2725fd3a09c",
+      "schemaSHA256": "a4f643c80087e4998e5afca04f20506864472d9d1f2bb4f98f6d4f7c54397432"
+    },
+    {
+      "table": "SpellDuration",
+      "fileDataID": 1137828,
+      "rows": 133,
+      "bytes": 2126,
+      "sha256": "5fc7bc0db4ca9943f0b38748ede7eb115d0c99b7e8cd6782c21cb32531b7d374",
+      "schemaSHA256": "ad53c361fb1ffc60a3debada6432158a64fb2620e5e98845c6d690864945604a"
+    },
+    {
+      "table": "SpellCooldowns",
+      "fileDataID": 1139924,
+      "rows": 4438,
+      "bytes": 68821,
+      "sha256": "5cbbf1f9131f257ecc8e40c34178dd7c00c478798b56c6688f9aa77a18f3f911",
+      "schemaSHA256": "66b8a20dc56826085e6338281f17cc375eb862367e8b73df5627246dca3a3b1a"
+    },
+    {
+      "table": "SpellAuraOptions",
+      "fileDataID": 1139952,
+      "rows": 12900,
+      "bytes": 209794,
+      "sha256": "8f4f3308ef9187975104c3813cd03623a43afec02c78b23cadd5444635470214",
+      "schemaSHA256": "811e9632a1375ee2d703c2753efb1eb0de67a3104c50e3cf2ed20b9ab88a2a31"
+    },
+    {
+      "table": "SpellDescriptionVariables",
+      "fileDataID": 1140004,
+      "rows": 43,
+      "bytes": 11635,
+      "sha256": "d9854fb01c5e2ae660275099d647db1987fb95ef550d53396d93b694cb5b80cd",
+      "schemaSHA256": "68953808fafb08f08fba583584a5ed25210bf38fac3c4db5f1fd003403ee26a7"
+    },
+    {
+      "table": "SpellLevels",
+      "fileDataID": 1140079,
+      "rows": 12806,
+      "bytes": 196123,
+      "sha256": "4343b6332f21b0924e9f9954bf4ac271a619379ecee64c2bee37d688e2614f55",
+      "schemaSHA256": "b4c140a6aec423af491d7b3a2a796ea81df26a105eb22310e6bf88fea367f573"
+    },
+    {
+      "table": "SpellEffect",
+      "fileDataID": 1140088,
+      "rows": 42449,
+      "bytes": 1748958,
+      "sha256": "d0ab9238d0acb16557993b1d0f9b8984624df54473f6aab7cc3f3e748a48a79b",
+      "schemaSHA256": "27ab6be1207071969a3802c37af771c0b1ef5daf2240273601cfc75fc6bd4496"
+    },
+    {
+      "table": "Spell",
+      "fileDataID": 1140089,
+      "rows": 31767,
+      "bytes": 1857970,
+      "sha256": "e2cc29495ce6e195d0560863b789329f41fe76f25c5a477bf2ccdb700bd2754c",
+      "schemaSHA256": "8f215425d53dba2c20c15e51017b7d368720b5a572b7ec28e78b456b756c44bd"
+    },
+    {
+      "table": "SpellRange",
+      "fileDataID": 1146820,
+      "rows": 57,
+      "bytes": 2840,
+      "sha256": "e8a4ebfbd4663ce2533b6df40eb830ab27086fac469d499935c16940683c7c35",
+      "schemaSHA256": "c0aab4d10a2befce0ecb23d897a2ddc7eccf4f8c180711ddfc063bccb97245c1"
+    },
+    {
+      "table": "SkillRaceClassInfo",
+      "fileDataID": 1240406,
+      "rows": 186,
+      "bytes": 4428,
+      "sha256": "f0bf970fda4abc8737be4c9201b15adec54a5ba72bfb51e97144366fdaf5106e",
+      "schemaSHA256": "3f9544883a96efbac24f335f64fe565ea2ec7a2cf588f3691d9c8db4d44466ff"
+    },
+    {
+      "table": "SkillLine",
+      "fileDataID": 1240935,
+      "rows": 154,
+      "bytes": 10229,
+      "sha256": "6e788274c69dece8662b8f8a425bb4e5f969e5d569deaa3c2c66b15613e81c81",
+      "schemaSHA256": "9675515d4b9391b8b8cd6d6f33c9b46425db69bf7b6f9073b6c546f76e251b4c"
+    },
+    {
+      "table": "PowerType",
+      "fileDataID": 1266022,
+      "rows": 6,
+      "bytes": 890,
+      "sha256": "ac57288551693f8ef433cb6a2daa52ca57ba253ebc05db15800b41328863f8b2",
+      "schemaSHA256": "21a38deb8dffdaa0edeb654c470be24450e645fc0054c57d75f2c6a2f2e1fc59"
+    },
+    {
+      "table": "SkillLineAbility",
+      "fileDataID": 1266278,
+      "rows": 7824,
+      "bytes": 346834,
+      "sha256": "3fcbca23f07ffe294b4b2e2b8a7fa358482097fec2698fcba5007d98b3daa71f",
+      "schemaSHA256": "73d300b2dd113cd3db1a9c7a36b2b55b90360e17a241fc16cd40e58cad12e1a2"
+    },
+    {
+      "table": "ChrSpecialization",
+      "fileDataID": 1343390,
+      "rows": 10,
+      "bytes": 991,
+      "sha256": "062fa7a0ceaa947a8738276f9401cc3589ec6c72ef61b85cce00bd5b5f834cfb",
+      "schemaSHA256": "a91159a3820c93cce2d5d67aa3ff9ed6f75e274f94c16adc15a304bb4f4e33bd"
+    },
+    {
+      "table": "ChrClasses",
+      "fileDataID": 1361031,
+      "rows": 9,
+      "bytes": 5770,
+      "sha256": "6ad1cafbdfae75686ebb59f9a1301610d20ca6cffbae3a585a1606e6f26f56b2",
+      "schemaSHA256": "9a01ad887bd6ff9ca339a75ec7de9f96f6b966cb3e5be104383fb6fe606b6d41"
+    },
+    {
+      "table": "Talent",
+      "fileDataID": 1369062,
+      "rows": 432,
+      "bytes": 23954,
+      "sha256": "17aba53c567a14ff67d32877cebba6f16d2e7ba53275a75949fab9ba150c2f04",
+      "schemaSHA256": "17d827204b4ffd69f9eb4aa4b6efcaacd2cf70ae0786e18f1ca7fd98595b19f7"
+    },
+    {
+      "table": "SpellXDescriptionVariables",
+      "fileDataID": 1724949,
+      "rows": 168,
+      "bytes": 1814,
+      "sha256": "6448c580ace4a8c52e1074f01e8415d2a7474db6fb7ba668e57d5c2c107f4f08",
+      "schemaSHA256": "918e79c976c10c21fc8a97ae37d7595458bd6c25d1bceb7156ead0960e4ffc89"
+    },
+    {
+      "table": "SpellName",
+      "fileDataID": 1990283,
+      "rows": 31767,
+      "bytes": 632187,
+      "sha256": "729240f8a22f9ab23f108bf5ddbb8b74154698f2a3dddd7e4931c46892d0daf4",
+      "schemaSHA256": "2edb153db5fc1a51f22c6fb88fd4ce2eef0b474a48c1a6bc528313ecd0cb6a6f"
+    },
+    {
+      "table": "TalentTab",
+      "fileDataID": 2178102,
+      "rows": 27,
+      "bytes": 1829,
+      "sha256": "53a09bbd37dbbbf15923fa27c040d7a73a6749db60bd741c641b2a19f67e83db",
+      "schemaSHA256": "9f4f116263ceec88665e9ee396bbae5de974b299058e696ed82e9e2104f68352"
+    },
+    {
+      "table": "TraitNode",
+      "fileDataID": 4420297,
+      "rows": 560,
+      "bytes": 9974,
+      "sha256": "a9fa1836fd41a653a951262b875b530a6fe03edb90be97a9226f83efc7cf4f76",
+      "schemaSHA256": "5ff236de2a21dab89bc597bc8359875b536bf80785cf505e97c98cfb7479253f"
+    },
+    {
+      "table": "TraitNodeEntry",
+      "fileDataID": 4420298,
+      "rows": 656,
+      "bytes": 4338,
+      "sha256": "c70541b0f23b07d3cf0afe90936cb71dbcee3a960d4ecd3b078cd94ca4165b78",
+      "schemaSHA256": "ca3187a14c277b78b346258549562bf610dceeb4d350e5948fa149f3ff82643a"
+    },
+    {
+      "table": "TraitNodeGroup",
+      "fileDataID": 4420300,
+      "rows": 368,
+      "bytes": 4758,
+      "sha256": "8fe8430612dfe835641e93150f868617342e960e8f1a0e339fb96c82dcba5a4f",
+      "schemaSHA256": "ac05fda7585026e2ca9bde9137de92d6daaa4d2a3146a7cfc7272c6f93f50914"
+    },
+    {
+      "table": "TraitNodeGroupXTraitNode",
+      "fileDataID": 4420302,
+      "rows": 2159,
+      "bytes": 35006,
+      "sha256": "cb7fe7a8d1bbebcc73fdffb543f47abeaa0eb4735fabf8136cfa299a8da1264d",
+      "schemaSHA256": "6478e5d2dd21abbce4cfba238d1ce093a92e1f62da394c57a6ccdcf3e878c987"
+    },
+    {
+      "table": "TraitNodeXTraitNodeEntry",
+      "fileDataID": 4420304,
+      "rows": 563,
+      "bytes": 8919,
+      "sha256": "e7b8b67646f6d13c02d9a116f6e0dad80027158d7eabc5739d407a303990bc21",
+      "schemaSHA256": "7d905192f9f0b8ad1cc50ad1059bebf494bb702c4bd82d382d1a6f9238fe6832"
+    },
+    {
+      "table": "TraitTree",
+      "fileDataID": 4420305,
+      "rows": 17,
+      "bytes": 778,
+      "sha256": "c527c57a7f621ba9d70647c8f20e80a1b29e2cf09f691457712f4393472b439a",
+      "schemaSHA256": "d61d3f66c72a682c550bf8aa7ed22271d3b28384c162f1e15e4e3f3b8c79fbaa"
+    },
+    {
+      "table": "TraitEdge",
+      "fileDataID": 4420308,
+      "rows": 96,
+      "bytes": 1934,
+      "sha256": "05a96847f5cb2c204193539920789c945d4588ad1b29fafb199ac98082f43d47",
+      "schemaSHA256": "4ef2c5c9592eeedf604c143e9d54a97d8584fa282e931891ed0766938403f7de"
+    },
+    {
+      "table": "TraitDefinition",
+      "fileDataID": 4420327,
+      "rows": 656,
+      "bytes": 13104,
+      "sha256": "6542137f8e691448156365c725afd13ef13a8c52452700798e0635214aac021e",
+      "schemaSHA256": "4b3c0c531f95411ead84a226e7aec1311ec059021626886307f06366d436cc64"
+    },
+    {
+      "table": "SkillLineXTraitTree",
+      "fileDataID": 4505477,
+      "rows": 9,
+      "bytes": 486,
+      "sha256": "39e669d66ab00f64cea52e7ddab0d01b275032a04c3ff82c7e4ec85bfc1a31ff",
+      "schemaSHA256": "a30ba55dc2169d1d95aebd92a9a14bdbecaef906bde65f2c940ee48ddad475f9"
+    },
+    {
+      "table": "TraitCurrency",
+      "fileDataID": 4524216,
+      "rows": 2,
+      "bytes": 482,
+      "sha256": "5049756f23860942f0e0af42768e4116fed3ba0f7ea41d25601a9c079c473aa5",
+      "schemaSHA256": "ec0413067745bd5702eb8bedf4167c99d4420c65e074ef9570e222d1cf18cd57"
+    },
+    {
+      "table": "TraitTreeXTraitCurrency",
+      "fileDataID": 4524218,
+      "rows": 13,
+      "bytes": 534,
+      "sha256": "b810f861bbcf1ca85e952b256ce3ed8b2b195405802530414c42f568df3bf1e2",
+      "schemaSHA256": "8acdf0a16b4743833768a1cee1b45c18d6e0b7f45c6fae64de3eb039511c3b0a"
+    },
+    {
+      "table": "TraitDefinitionEffectPoints",
+      "fileDataID": 4536895,
+      "rows": 640,
+      "bytes": 9998,
+      "sha256": "ff7f2f71eda7b36c1dab679e0adbe998734a78d911d11aa6b95e62dd6d182ce5",
+      "schemaSHA256": "986a814c21153d3a491a277c972c781c45fecb708dba9108852ca534b289bdb8"
+    },
+    {
+      "table": "TraitCond",
+      "fileDataID": 4543085,
+      "rows": 172,
+      "bytes": 3398,
+      "sha256": "3f6866efdedda1cfc5250b3a826daffa3e1021547cf31b7b9c860d7ac07c1cff",
+      "schemaSHA256": "150b24d3db0cabfa379774447b72e4e6e95c020ab7ecaa4bfda8934a68a29c15"
+    },
+    {
+      "table": "TraitNodeGroupXTraitCond",
+      "fileDataID": 4543090,
+      "rows": 171,
+      "bytes": 2736,
+      "sha256": "ac1019a3869d585cb8b5366d47c0643b7b3f80b91cf28be7376c1f3f3ce22469",
+      "schemaSHA256": "87fff33141f4d0dce31ec501f8710799f4336f0e08794be7f2a7de10c1522496"
+    },
+    {
+      "table": "TraitNodeXTraitCond",
+      "fileDataID": 4543092,
+      "rows": 1,
+      "bytes": 355,
+      "sha256": "c626ffb8deb385f8cfa7071795ece405a7836e84592e2d393c7ed83ca34132fb",
+      "schemaSHA256": "09c096a0c7cfdf3f3380865f0c4879a964f5840257433ba94829135cde291b7a"
+    },
+    {
+      "table": "TraitSystem",
+      "fileDataID": 4635649,
+      "rows": 2,
+      "bytes": 416,
+      "sha256": "34402b711f70e18be748fe666a0af04a71f188be8592a80f992730f406e7308e",
+      "schemaSHA256": "25b511c0e0a20af1937ed183068ce67bbd96a96e00c1387e881196a7f28dc160"
+    },
+    {
+      "table": "TraitCost",
+      "fileDataID": 4420295,
+      "rows": 11,
+      "bytes": 509,
+      "sha256": "1abb8056d2e826e141c13455d39d9ba6769a2d0d1c0fe73cc0c5c95c27ac24ab",
+      "schemaSHA256": "9fa3dd22468d407995fe1fbe0c9616a16fb51fae4b9e857386e8ca4c736e1c6f"
+    },
+    {
+      "table": "TraitNodeEntryXTraitCost",
+      "fileDataID": 4420299,
+      "rows": 0,
+      "bytes": 216,
+      "sha256": "7307ce5f7e67a7258c159a09c8bfa4622bb7a10fb8214ae37a59ed98d17a131a",
+      "schemaSHA256": "db23a4b7bc4152d53231d590bd9a239c50c14b3064bb7bd4825f0ec3261ddebc"
+    },
+    {
+      "table": "TraitNodeGroupXTraitCost",
+      "fileDataID": 4420301,
+      "rows": 0,
+      "bytes": 216,
+      "sha256": "ed4cf8048425c10124bb6bc2866892282ea87f2962c60cf51055e86042c04e54",
+      "schemaSHA256": "5c052a5a48f7644d9d3a8f3d482eb6807bbd7e96beed5466ed0aa62a4d80bacf"
+    },
+    {
+      "table": "TraitNodeXTraitCost",
+      "fileDataID": 4420303,
+      "rows": 0,
+      "bytes": 216,
+      "sha256": "a49bb5049673d611d0424bf14b5d97d6aaab06f998d4989972a9baa7ec3b33f6",
+      "schemaSHA256": "65d256face382390d607bf81cbd775294f383ae436ff6f2eb32cdd37c30cb09a"
+    },
+    {
+      "table": "TraitTreeXTraitCost",
+      "fileDataID": 4420306,
+      "rows": 13,
+      "bytes": 511,
+      "sha256": "b260728c667f783d5986eeff7e4ec86635b068303d8fb3740e4e07f66d5226d5",
+      "schemaSHA256": "327de343a3d9567673c189485600c398b5880517154f818b55337b0abc66358e"
+    },
+    {
+      "table": "TraitCurrencySource",
+      "fileDataID": 4539393,
+      "rows": 186,
+      "bytes": 8001,
+      "sha256": "c745255d16f947d3804e060b801b6271996e94307e8ee57baa3d55891f25b94a",
+      "schemaSHA256": "470ca52c9e39dcf1f42f5053b3e1cfa4674cc2ce45c1bc6d6343d080c00fb0ca"
+    },
+    {
+      "table": "TraitNodeEntryXTraitCond",
+      "fileDataID": 4543088,
+      "rows": 0,
+      "bytes": 216,
+      "sha256": "ae5fbef514984bf8dda6dba9108a7f0debeef086f06200f0fae5dea027b0d475",
+      "schemaSHA256": "bbe7a02420a36c378ba61f372d6dac6df12bc72172f212a35c9f7eac8cf502d5"
+    },
+    {
+      "table": "TraitTreeLoadout",
+      "fileDataID": 4669507,
+      "rows": 0,
+      "bytes": 216,
+      "sha256": "c74adaa58570f4249cb8e59fcecb4c7f50a5711b5d05b335062f17b9221d8055",
+      "schemaSHA256": "621b3a3e905470033a527184624c4f15172dc3a922fbfd1eb3650614af07bf99"
+    },
+    {
+      "table": "TraitTreeLoadoutEntry",
+      "fileDataID": 4669509,
+      "rows": 0,
+      "bytes": 228,
+      "sha256": "1552dd625383ba1d6c0311aa3cb3c4d36cedc8d82eb9f214921a30b0144571ec",
+      "schemaSHA256": "b04b50124154788e9d80ab31ba863ab2d7a723f3f9c65278ec063438b72ec9ae"
+    }
+  ]
+}

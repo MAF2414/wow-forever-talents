@@ -60,6 +60,30 @@ warlock=next(c for c in d['classes'] if c['id']==9)
 agony=next(s for s in warlock['spells'] if s['name']=='Bane of Agony' and not s['extra'])
 assert agony['status']=='changed' and agony['previousNames']==['Curse of Agony']
 assert all(p['classic'] and p['forever'] for p in agony['pairs'])
+# Regression cases discovered by the direct client-file audit.
+stance=next(s for s in warrior['spells'] if s['name']=='Battle Stance' and not s['extra'])
+for side in ('classic','forever'):assert stance['pairs'][0][side]['metrics']['Duration (sec)']=='Unlimited'
+combustion=next(t for t in mage['talentChanges'] if t['name']=='Combustion')
+assert combustion['classic']['prerequisites']==['Critical Mass (rank 3)']
+hunter=next(c for c in d['classes'] if c['id']==3)
+intimidation=next(t for t in hunter['talentChanges'] if t['name']=='Intimidation')
+assert intimidation['forever']['prerequisiteMode']=='any'
+assert intimidation['forever']['prerequisites']==['Bestial Swiftness (rank 1)','Bestial Wrath (rank 1)']
+rogue=next(c for c in d['classes'] if c['id']==4)
+venom=next(t for t in rogue['talentChanges'] if t['name']=='Venom')['forever']
+assert venom['requiredPoints']==30 and venom['additionalConditions'][0]['ID']=='50984'
+import build_talents as source
+assert source.resolve_description('$m2 to $M2',116,0,1,overrides={})=='18 to 20'
+curve_gaps=[]
+for e in all_entries:
+    if e.get('definitionID') and source.POINTS[e['definitionID']]:
+        for rank in range(1,e['maxRanks']+1):
+            for point in source.POINTS[e['definitionID']]:
+                assert point['OperationType']=='0'
+                if not any(float(p['Pos_0'])==rank for p in source.CURVES[int(point['CurveID'])]):
+                    curve_gaps.append((e['name'],int(point['EffectIndex']),rank))
+                    assert e.get('curveNotice')
+assert sorted(curve_gaps)==[('Cutthroat',1,4),('Cutthroat',1,5)]
 html=(ROOT/'dist'/'index.html').read_text(encoding='utf-8')
 assert '/*TALENT_DATA*/null' not in html
 assert not re.search(r'<script\b[^>]*\bsrc=',html)

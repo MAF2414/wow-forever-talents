@@ -24,6 +24,11 @@ and a side-by-side comparison against Classic Era.
 - **Spells:** 484 regular active spell groups, with additional passive, talent
   and seasonal records available through filters.
 
+**[Client-file audit](docs/audit.md):** 42 Forever tables (243,982 records) were
+independently decoded from Blizzard’s CDN and matched against the exports. The
+audit also corrected duration formatting, explicit damage bounds and prerequisite
+handling.
+
 The source tables are public [Wago.Tools DB2 exports](https://wago.tools/builds).
 The Forever SkillLineAbility layout is interpreted using
 [WoWDBDefs](https://github.com/wowdev/WoWDBDefs/blob/master/definitions/SkillLineAbility.dbd).
@@ -35,8 +40,9 @@ This is a **client-data comparison**, not a guarantee of in-game availability.
 Era/SoD 1.15.9.69722 help identify inherited seasonal records; those records are
 shown separately rather than counted as new Forever abilities.
 
-Damage and healing use base values without character simulation. Random damage
-ranges are normalized to their mean. Unresolved dynamic expressions remain
+Damage and healing use base values without character simulation. General damage
+amounts and numeric effect comparisons use means; explicit minimum/maximum
+expressions retain their bounds. Unresolved dynamic expressions remain
 visible. “Unchanged” applies to the compared fields, not every possible server
 rule. Triggered subspells, equipment, server hotfixes and additional conditions
 are not fully simulated. Spells are matched by ID to preserve renames; different

@@ -86,7 +86,13 @@ def resolve_description(text,sid,definition,rank,depth=0,origin=None,overrides=N
         target=int(m[1]) if m[1] else sid; kind=m[2].lower();ix=int(m[3] or 1)-1
         ef=EFFECTS.get((target,ix),{});misc=MISC.get(target,{})
         value=None
-        if kind in ('s','m'):value=effect_value(target,ix,origin,overrides)
+        if kind in ('s','m'):
+            value=effect_value(target,ix,origin,overrides)
+            # $m is the lower bound, $M the upper bound. $s remains the mean
+            # in this character-independent viewer. Never collapse a range.
+            if value is not None and kind=='m':
+                spread=abs(value*float(ef.get('Variance',0)))/2
+                value+=spread if m[2]=='M' else -spread
         elif kind=='d':
             duration=DURATION.get(int(misc.get('DurationIndex',0)),{}).get('Duration')
             if duration is not None and float(duration)>=0:value=float(duration)/1000
@@ -150,7 +156,12 @@ def make_entry(link):
     scaling_types={2,10,17,31,58,121}
     scaling_auras={3,8,69}
     base_notice=any(s in referenced and (int(e['Effect']) in scaling_types or (int(e['Effect'])==6 and int(e['EffectAura']) in scaling_auras)) for (s,_),e in EFFECTS.items())
-    return {'id':int(entry['ID']),'definitionID':did,'spellID':sid,'name':name,'description':description,'maxRanks':maxr,'iconID':icon,'ranks':ranks,'baseValueNotice':base_notice,'ranksEstimated':maxr>1 and not POINTS[did] and '$' in description}
+    gaps=[{'effectIndex':int(p['EffectIndex']),'rank':r,'curveID':int(p['CurveID'])} for p in POINTS[did] for r in range(1,maxr+1) if not any(float(cp['Pos_0'])==r for cp in CURVES[int(p['CurveID'])])]
+    result={'id':int(entry['ID']),'definitionID':did,'spellID':sid,'name':name,'description':description,'maxRanks':maxr,'iconID':icon,'ranks':ranks,'baseValueNotice':base_notice,'ranksEstimated':maxr>1 and not POINTS[did] and '$' in description}
+    if gaps:
+        result['curveGaps']=gaps
+        result['curveNotice']='A secondary effect has no explicit curve points for the highest ranks. The displayed chance uses a complete curve; the secondary effect at higher ranks is unverified.'
+    return result
 
 def build():
     classes=index('ChrClasses');group_nodes=group('TraitNodeGroupXTraitNode','TraitNodeGroupID');conds=index('TraitCond')
@@ -174,8 +185,14 @@ def build():
             position=12.5+column*25
             entries=[make_entry(l) for l in sorted(LINKS[nid],key=lambda a:int(a['_Index']))]
             assert entries,('Missing entry',nid)
-            required=[int(co['SpentAmountRequired']) for co in node_conds[nid] if co['CondType']=='0']
+            required=[int(co['SpentAmountRequired']) for co in node_conds[nid] if co['CondType']=='0' and not int(co['TraitNodeID']) and not int(co['TraitNodeEntryID'])]
             talent={'id':nid,'row':round((y-2130)/600),'x':position,'sourceX':original_x,'sourceY':y,'requiredPoints':max(required) if required else 0,'entries':entries}
+            # Preserve mixed node/group conditions without pretending to have
+            # evaluated the server's rule. Venom has one in this beta snapshot.
+            special=[co for co in node_conds[nid] if int(co['TraitNodeID']) or int(co['TraitNodeEntryID'])]
+            if special:
+                talent['additionalConditions']=special
+                talent['conditionNote']='An additional client condition references specific talents and a talent group. Its in-game evaluation has not been verified.'
             if x>20000 or y>20000:
                 talent['outsideGrid']=True
                 c['extraTalents'].append(talent)
@@ -187,6 +204,7 @@ def build():
             # Preserve the beta's edge direction, including anomalous backwards links.
             lookup={t['id']:t for t in talents}
             for e in es:
+                e['requiredRanks']=max(entry['maxRanks'] for entry in lookup[e['from']]['entries'])
                 if lookup[e['from']]['row']>lookup[e['to']]['row']:
                     e['warning']='Backwards connection in the client snapshot.'
                     layout_notes.append({'edge':e,'note':'Direction preserved from TraitEdge.'})
